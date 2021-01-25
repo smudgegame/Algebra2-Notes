@@ -1,0 +1,1867 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  19 JAN 2021 11:22
+entering extended mode
+**"./Algebra 2 Chapter 5 Notes.tex"
+("Algebra 2 Chapter 5 Notes.tex"
+LaTeX2e <2020-10-01> patch level 1
+L3 programming layer <2020-10-05> xparse <2020-03-03>
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count175
+\c@chapter=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
+\c@figure=\count182
+\c@table=\count183
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+For additional information on amsmath, use the `?' option.
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks15
+\ex@=\dimen139
+))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+) (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.st
+y
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count184
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count185
+\leftroot@=\count186
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count187
+\DOTSCASE@=\count188
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count189
+\c@MaxMatrixCols=\count190
+\dotsspace@=\muskip16
+\c@parentequation=\count191
+\dspbrk@lvl=\count192
+\tag@help=\toks16
+\row@=\count193
+\column@=\count194
+\maxfields@=\count195
+\andhelp@=\toks17
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks18
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks19
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.st
+y
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.s
+ty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.s
+ty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks20
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen148
+\Gm@wd@mp=\dimen149
+\Gm@odd@mp=\dimen150
+\Gm@even@mp=\dimen151
+\Gm@layoutwidth=\dimen152
+\Gm@layoutheight=\dimen153
+\Gm@layouthoffset=\dimen154
+\Gm@layoutvoffset=\dimen155
+\Gm@dimlist=\toks21
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.c
+fg))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.s
+ty
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip52
+\f@nch@O@elh=\skip53
+\f@nch@O@erh=\skip54
+\f@nch@O@olh=\skip55
+\f@nch@O@orh=\skip56
+\f@nch@O@elf=\skip57
+\f@nch@O@erf=\skip58
+\f@nch@O@olf=\skip59
+\f@nch@O@orf=\skip60
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.s
+ty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip61
+\multirow@cntb=\count199
+\multirow@dima=\skip62
+\bigstrutjot=\dimen156
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.s
+ty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count266
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks22
+\thm@bodyfont=\toks23
+\thm@headfont=\toks24
+\thm@notefont=\toks25
+\thm@headpunct=\toks26
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
+\dth@everypar=\toks27
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\t
+ikz.sty
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.
+sty
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrc
+s.sty
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+util-common.tex
+\pgfutil@everybye=\toks28
+\pgfutil@tempdima=\dimen157
+\pgfutil@tempdimb=\dimen158
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+util-common-lists.tex))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+util-latex.def
+\pgfutil@abb=\box49
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+rcs.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.
+tex)
+Package: pgfrcs 2020/10/01 v3.1.6a (3.1.6a)
+))
+Package: pgf 2020/10/01 v3.1.6a (3.1.6a)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfc
+ore.sty
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.s
+ty
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.s
+ty
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphi
+cs.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex
+.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen159
+\Gin@req@width=\dimen160
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgf
+sys.sty
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gfsys.code.tex
+Package: pgfsys 2020/10/01 v3.1.6a (3.1.6a)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+keys.code.tex
+\pgfkeys@pathtoks=\toks29
+\pgfkeys@temptoks=\toks30
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+keysfiltered.code.tex
+\pgfkeys@tmptoks=\toks31
+))
+\pgf@x=\dimen161
+\pgf@y=\dimen162
+\pgf@xa=\dimen163
+\pgf@ya=\dimen164
+\pgf@xb=\dimen165
+\pgf@yb=\dimen166
+\pgf@xc=\dimen167
+\pgf@yc=\dimen168
+\pgf@xd=\dimen169
+\pgf@yd=\dimen170
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count267
+\c@pgf@countb=\count268
+\c@pgf@countc=\count269
+\c@pgf@countd=\count270
+\t@pgf@toka=\toks32
+\t@pgf@tokb=\toks33
+\t@pgf@tokc=\toks34
+\pgf@sys@id@count=\count271
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gf.cfg
+File: pgf.cfg 2020/10/01 v3.1.6a (3.1.6a)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gfsys-pdftex.def
+File: pgfsys-pdftex.def 2020/10/01 v3.1.6a (3.1.6a)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gfsys-common-pdf.def
+File: pgfsys-common-pdf.def 2020/10/01 v3.1.6a (3.1.6a)
+)))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gfsyssoftpath.code.tex
+File: pgfsyssoftpath.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfsyssoftpath@smallbuffer@items=\count272
+\pgfsyssoftpath@bigbuffer@items=\count273
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
+gfsysprotocol.code.tex
+File: pgfsysprotocol.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.
+cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcore.code.tex
+Package: pgfcore 2020/10/01 v3.1.6a (3.1.6a)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.
+code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathc
+alc.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathu
+til.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathp
+arser.code.tex
+\pgfmath@dimen=\dimen171
+\pgfmath@count=\count274
+\pgfmath@box=\box50
+\pgfmath@toks=\toks35
+\pgfmath@stack@operand=\toks36
+\pgfmath@stack@operation=\toks37
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.basic.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.trigonometric.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.random.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.comparison.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.base.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.round.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.misc.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+unctions.integerarithmetics.code.tex)))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
+loat.code.tex
+\c@pgfmathroundto@lastzeros=\count275
+))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.c
+ode.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorepoints.code.tex
+File: pgfcorepoints.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@picminx=\dimen172
+\pgf@picmaxx=\dimen173
+\pgf@picminy=\dimen174
+\pgf@picmaxy=\dimen175
+\pgf@pathminx=\dimen176
+\pgf@pathmaxx=\dimen177
+\pgf@pathminy=\dimen178
+\pgf@pathmaxy=\dimen179
+\pgf@xx=\dimen180
+\pgf@xy=\dimen181
+\pgf@yx=\dimen182
+\pgf@yy=\dimen183
+\pgf@zx=\dimen184
+\pgf@zy=\dimen185
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorepathconstruct.code.tex
+File: pgfcorepathconstruct.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@path@lastx=\dimen186
+\pgf@path@lasty=\dimen187
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorepathusage.code.tex
+File: pgfcorepathusage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@shorten@end@additional=\dimen188
+\pgf@shorten@start@additional=\dimen189
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorescopes.code.tex
+File: pgfcorescopes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfpic=\box51
+\pgf@hbox=\box52
+\pgf@layerbox@main=\box53
+\pgf@picture@serial@count=\count276
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoregraphicstate.code.tex
+File: pgfcoregraphicstate.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgflinewidth=\dimen190
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoretransformations.code.tex
+File: pgfcoretransformations.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@pt@x=\dimen191
+\pgf@pt@y=\dimen192
+\pgf@pt@temp=\dimen193
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorequick.code.tex
+File: pgfcorequick.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoreobjects.code.tex
+File: pgfcoreobjects.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorepathprocessing.code.tex
+File: pgfcorepathprocessing.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorearrows.code.tex
+File: pgfcorearrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfarrowsep=\dimen194
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoreshade.code.tex
+File: pgfcoreshade.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@max=\dimen195
+\pgf@sys@shading@range@num=\count277
+\pgf@shadingcount=\count278
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoreimage.code.tex
+File: pgfcoreimage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoreexternal.code.tex
+File: pgfcoreexternal.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfexternal@startupbox=\box54
+))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorelayers.code.tex
+File: pgfcorelayers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcoretransparency.code.tex
+File: pgfcoretransparency.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorepatterns.code.tex
+File: pgfcorepatterns.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
+fcorerdf.code.tex
+File: pgfcorerdf.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmo
+duleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfnodeparttextbox=\box55
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmo
+duleplot.code.tex
+File: pgfmoduleplot.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\p
+gfcomp-version-0-65.sty
+Package: pgfcomp-version-0-65 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@nodesepstart=\dimen196
+\pgf@nodesepend=\dimen197
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\p
+gfcomp-version-1-18.sty
+Package: pgfcomp-version-1-18 2020/10/01 v3.1.6a (3.1.6a)
+))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffo
+r.sty
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfke
+ys.sty
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+keys.code.tex))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.st
+y
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.
+code.tex))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
+for.code.tex
+Package: pgffor 2020/10/01 v3.1.6a (3.1.6a)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.
+code.tex)
+\pgffor@iter=\dimen198
+\pgffor@skip=\dimen199
+\pgffor@stack=\toks38
+\pgffor@toks=\toks39
+))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
+/tikz\tikz.code.tex
+Package: tikz 2020/10/01 v3.1.6a (3.1.6a)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgf
+libraryplothandlers.code.tex
+File: pgflibraryplothandlers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgf@plot@mark@count=\count279
+\pgfplotmarksize=\dimen256
+)
+\tikz@lastx=\dimen257
+\tikz@lasty=\dimen258
+\tikz@lastxsaved=\dimen259
+\tikz@lastysaved=\dimen260
+\tikz@lastmovetox=\dimen261
+\tikz@lastmovetoy=\dimen262
+\tikzleveldistance=\dimen263
+\tikzsiblingdistance=\dimen264
+\tikz@figbox=\box56
+\tikz@figbox@bg=\box57
+\tikz@tempbox=\box58
+\tikz@tempbox@bg=\box59
+\tikztreelevel=\count280
+\tikznumberofchildren=\count281
+\tikznumberofcurrentchild=\count282
+\tikz@fig@count=\count283
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmo
+dulematrix.code.tex
+File: pgfmodulematrix.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\pgfmatrixcurrentrow=\count284
+\pgfmatrixcurrentcolumn=\count285
+\pgf@matrix@numberofcolumns=\count286
+)
+\tikz@expandcount=\count287
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgfplots\pgfplots.s
+ty
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+.revision.tex)
+Package: pgfplots 2020/02/29 v1.17 Data Visualization (1.17)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+core.code.tex
+\t@pgfplots@toka=\toks40
+\t@pgfplots@tokb=\toks41
+\t@pgfplots@tokc=\toks42
+\pgfplots@tmpa=\dimen265
+\c@pgfplots@coordindex=\count288
+\c@pgfplots@scanlineindex=\count289
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfp
+lotssysgeneric.code.tex))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgf
+plotslibrary.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/oldpgfco
+mpatib\pgfplotsoldpgfsupp_loader.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgf
+libraryfpu.code.tex))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgf
+plotsutil.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststru
+cture\pgfplotsliststructure.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststru
+cture\pgfplotsliststructureext.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststru
+cture\pgfplotsarray.code.tex
+\c@pgfplotsarray@tmp=\count290
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststru
+cture\pgfplotsmatrix.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable
+\pgfplotstableshared.code.tex
+\c@pgfplotstable@counta=\count291
+\t@pgfplotstable@a=\toks43
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststru
+cture\pgfplotsdeque.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgf
+plotsbinary.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgf
+plotsbinary.data.code.tex))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgf
+plotsutil.verb.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgf
+librarypgfplots.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count292
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfl
+ibrarypgfplots.surfshading.pgfsys-pdftex.def)))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgf
+plotscolormap.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/util\pgf
+plotscolor.code.tex))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+stackedplots.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+plothandlers.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+meshplothandler.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+meshplotimage.code.tex)))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+.scaling.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+coordprocessing.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+.errorbars.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+.markers.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+ticks.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots\pgfplots
+.paths.code.tex)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibrarydecorations.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmo
+duledecorations.code.tex
+\pgfdecoratedcompleteddistance=\dimen266
+\pgfdecoratedremainingdistance=\dimen267
+\pgfdecoratedinputsegmentcompleteddistance=\dimen268
+\pgfdecoratedinputsegmentremainingdistance=\dimen269
+\pgf@decorate@distancetomove=\dimen270
+\pgf@decorate@repeatstate=\count293
+\pgfdecorationsegmentamplitude=\dimen271
+\pgfdecorationsegmentlength=\dimen272
+)
+\tikz@lib@dec@box=\box60
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/dec
+orations\pgflibrarydecorations.pathmorphing.code.tex))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/dec
+orations\pgflibrarydecorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count294
+\pgfplots@xmin@reg=\dimen273
+\pgfplots@xmax@reg=\dimen274
+\pgfplots@ymin@reg=\dimen275
+\pgfplots@ymax@reg=\dimen276
+\pgfplots@zmin@reg=\dimen277
+\pgfplots@zmax@reg=\dimen278
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgf
+libraryplotmarks.code.tex
+File: pgflibraryplotmarks.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+)))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stacken
+gine.sty
+Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
+ways
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofi
+tems.sty
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listo
+fitems.tex
+\loi_cnt_foreach_nest=\count295
+\loi_nestcnt=\count296
+)
+Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
+sep char (CT)
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count297
+\calc@Bcount=\count298
+\calc@Adimen=\dimen279
+\calc@Bdimen=\dimen280
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count299
+\calc@Cskip=\skip68
+)
+\c@@stackindex=\count300
+\@boxshift=\skip69
+\stack@tmplength=\skip70
+\temp@stkl=\skip71
+\@stackedboxwidth=\skip72
+\@addedbox=\box61
+\@anchorbox=\box62
+\stackedbox=\box63
+\@centerbox=\box64
+\c@ROWcellindex@=\count301
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox
+.sty
+Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks44
+\verbatim@line=\toks45
+\verbatim@in@stream=\read3
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspac
+es.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box65
+\tcb@upperbox=\box66
+\tcb@lowerbox=\box67
+\tcb@phantombox=\box68
+\c@tcbbreakpart=\count302
+\c@tcblayer=\count303
+\c@tcolorbox@number=\count304
+\tcb@temp=\box69
+\tcb@temp=\box70
+\tcb@temp=\box71
+\tcb@temp=\box72
+\tcb@out=\write4
+\tcb@record@out=\write5
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgf
+libraryarrows.code.tex
+File: pgflibraryarrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
+\arrowsize=\dimen281
+))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen282
+\ar@mcellbox=\box73
+\extrarowheight=\dimen283
+\NC@list=\toks46
+\extratabsurround=\skip73
+\backup@length=\skip74
+\ar@cellbox=\box74
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.s
+ty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen284
+\lightrulewidth=\dimen285
+\cmidrulewidth=\dimen286
+\belowrulesep=\dimen287
+\belowbottomsep=\dimen288
+\aboverulesep=\dimen289
+\abovetopsep=\dimen290
+\cmidrulesep=\dimen291
+\cmidrulekern=\dimen292
+\defaultaddspace=\dimen293
+\@cmidla=\count305
+\@cmidlb=\count306
+\@aboverulesep=\dimen294
+\@belowrulesep=\dimen295
+\@thisruleclass=\count307
+\@lastruleclass=\count308
+\@thisrulewidth=\dimen296
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/arydshln\arydshln.s
+ty
+Package: arydshln 2019/02/21 v1.76 
+\dashlinedash=\dimen297
+\dashlinegap=\dimen298
+\adl@box=\box75
+\adl@height=\dimen299
+\adl@heightsave=\dimen300
+\adl@depth=\dimen301
+\adl@depthsave=\dimen302
+\adl@finaldepth=\dimen303
+\adl@columns=\count309
+\adl@ncol=\count310
+\adl@currentcolumn=\count311
+\adl@currentcolumnsave=\count312
+\adl@totalheight=\count313
+\adl@totalheightsave=\count314
+\adl@dash=\count315
+\adl@gap=\count316
+\adl@cla=\count317
+\adl@clb=\count318
+\adl@everyvbox=\toks47
+\adl@LTpagetotal=\dimen304
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tik
+zlibrarypgfplots.fillbetween.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontr
+ib\tikzlibraryfillbetween.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
+/tikz/libraries\tikzlibraryintersections.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgf
+libraryintersections.code.tex
+\pgf@intersect@solutions=\count319
+))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontr
+ib\tikzlibrarydecorations.softclip.code.tex
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontr
+ib\pgflibraryfillbetween.code.tex)))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tik
+zlibrarypgfplots.decorations.softclip.code.tex))
+\c@example=\count320
+\c@definition=\count321
+\c@youtry=\count322
+\c@step=\count323
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
+-pdftex.def
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count324
+\l__pdf_internal_box=\box76
+) ("Algebra 2 Chapter 5 Notes.aux")
+\openout1 = `"Algebra 2 Chapter 5 Notes.aux"'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 183.
+LaTeX Font Info:    ... okay on input line 183.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(54.2025pt, 505.89pt, 54.2025pt)
+* v-part:(T,H,B)=(54.2025pt, 686.56499pt, 54.2025pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=505.89pt
+* \textheight=686.56499pt
+* \oddsidemargin=-18.06749pt
+* \evensidemargin=-18.06749pt
+* \topmargin=-55.06749pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
+f.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count325
+\scratchdimen=\dimen305
+\scratchbox=\box77
+\nofMPsegments=\count326
+\nofMParguments=\count327
+\everyMPshowfont=\toks48
+\MPscratchCnt=\count328
+\MPscratchDim=\dimen306
+\MPnumerator=\count329
+\makeMPintoPDFobject=\count330
+\everyMPtoPDFconversion=\toks49
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
+df-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+Package pgfplots notification 'compat/show suggested version=true': you might b
+enefit from \pgfplotsset{compat=1.17} (current compat level: 1.16).
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 199
+.
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 199
+.
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 199--200
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 261--262
+
+ []
+
+
+Overfull \hbox (30.66663pt too wide) in paragraph at lines 264--346
+[][] [] [] [] 
+ []
+
+[1{C:/Users/amargraff/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
+
+]
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 398--403
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 437--442
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 453--454
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 457--458
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 516--517
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 520--521
+
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 583--584
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 587--588
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 626--628
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 630--635
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 669--673
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 686--687
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 690--691
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 750--751
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 754--755
+
+ []
+
+[3]
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 852--854
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 910--911
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 914--915
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 974--975
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 978--979
+
+ []
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 1050--1053
+
+ []
+
+
+Underfull \hbox (badness 1902) in paragraph at lines 1181--1182
+\OT1/cmr/m/n/10 line through the ver-tex of the
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1181--1182
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
+[]\OT1/cmr/m/n/10 The quadratic func-tion
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1186--1187
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+[5]
+Underfull \hbox (badness 10000) in paragraph at lines 1233--1234
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1237--1238
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1253--1254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1256
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1257--1258
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1283--1284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1285--1286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1287--1288
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1313--1314
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1316
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1317--1318
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1343--1344
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1345--1346
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1347--1348
+
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 1380--1381
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1384--1385
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1395--1396
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1397--1398
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1399--1400
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1426
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1427--1428
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1429--1430
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1550--1551
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1552--1553
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1554--1555
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1556--1557
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1559--1560
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1561--1562
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1563--1564
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1565--1566
+
+ []
+
+[7] [8]
+Underfull \hbox (badness 10000) in paragraph at lines 1608--1611
+
+ []
+
+[9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 1756--1757
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1760--1761
+
+ []
+
+[11]
+Underfull \hbox (badness 10000) in paragraph at lines 1815--1816
+
+ []
+
+
+Overfull \hbox (0.36852pt too wide) in paragraph at lines 1882--1884
+ []
+ []
+
+[12]
+Underfull \hbox (badness 10000) in paragraph at lines 1894--1895
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1898--1899
+
+ []
+
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 1952--1953
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 2035--2038
+
+ []
+
+[15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 2224--2227
+
+ []
+
+
+Overfull \hbox (0.80966pt too wide) in paragraph at lines 2236--2252
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2321--2322
+
+ []
+
+
+LaTeX Font Warning: Command \Large invalid in math mode on input line 2329.
+
+[17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 2424--2427
+
+ []
+
+[19]
+
+LaTeX Font Warning: Command \large invalid in math mode on input line 2505.
+
+
+LaTeX Font Warning: Command \normalsize invalid in math mode on input line 2505
+.
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 2625--2626
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 2751--2752
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2755--2756
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2762--2763
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2766--2767
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2773--2774
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2777--2778
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2784--2785
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2788--2789
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2795--2796
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2799--2800
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 2894--2897
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Package pgfplots info on input line 2946: fill between: activating layered grap
+hics
+\pgf@layerbox@axis background=\box78
+\pgf@layerboxsaved@axis background=\box79
+\pgf@layerbox@axis grid=\box80
+\pgf@layerboxsaved@axis grid=\box81
+\pgf@layerbox@axis ticks=\box82
+\pgf@layerboxsaved@axis ticks=\box83
+\pgf@layerbox@axis lines=\box84
+\pgf@layerboxsaved@axis lines=\box85
+\pgf@layerbox@axis tick labels=\box86
+\pgf@layerboxsaved@axis tick labels=\box87
+\pgf@layerbox@pre main=\box88
+\pgf@layerboxsaved@pre main=\box89
+\pgf@layerbox@axis descriptions=\box90
+\pgf@layerboxsaved@axis descriptions=\box91
+\pgf@layerbox@axis foreground=\box92
+\pgf@layerboxsaved@axis foreground=\box93
+Package pgfplots info on input line 2946: Setting layers 'axis background,axis 
+grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axi
+s foreground'...
+
+Overfull \vbox (78.17929pt too high) detected at line 2946
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 3085--3086
+
+ []
+
+
+Overfull \hbox (7.48618pt too wide) in paragraph at lines 3095--3097
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3098--3099
+
+ []
+
+
+Overfull \hbox (7.48616pt too wide) in paragraph at lines 3107--3109
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3113--3114
+
+ []
+
+
+Overfull \hbox (7.48616pt too wide) in paragraph at lines 3122--3124
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3125--3126
+
+ []
+
+
+Overfull \hbox (7.48616pt too wide) in paragraph at lines 3134--3136
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3143--3144
+
+ []
+
+
+Overfull \hbox (7.48616pt too wide) in paragraph at lines 3152--3154
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3157--3158
+
+ []
+
+
+Overfull \hbox (7.48616pt too wide) in paragraph at lines 3166--3168
+[][]
+ []
+
+[24]
+Underfull \hbox (badness 10000) in paragraph at lines 3183--3190
+
+ []
+
+[25]
+Underfull \hbox (badness 10000) in paragraph at lines 3417--3419
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3428--3429
+
+ []
+
+
+Overfull \hbox (3.08612pt too wide) in paragraph at lines 3438--3440
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3442--3443
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3461--3462
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3474--3475
+
+ []
+
+
+Overfull \hbox (3.08612pt too wide) in paragraph at lines 3483--3485
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3490--3491
+
+ []
+
+
+Overfull \hbox (3.08612pt too wide) in paragraph at lines 3499--3501
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3504--3505
+
+ []
+
+[26]
+Underfull \hbox (badness 10000) in paragraph at lines 3547--3550
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3576--3577
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3592--3593
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3616--3617
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3632--3633
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3651--3652
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3654--3655
+
+ []
+
+[27] [28]
+Underfull \hbox (badness 10000) in paragraph at lines 3732--3735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3750--3751
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3752--3753
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3754--3755
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3756--3757
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3800--3801
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3802--3803
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3804--3805
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3806--3807
+
+ []
+
+[29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 3964--3965
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3966--3967
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3968--3969
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3976--3977
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3980--3981
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3982--3983
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3984--3985
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3986--3987
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 3988--3989
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4001--4002
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4005--4006
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4060--4061
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4070--4071
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4072--4073
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4102--4103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4104--4105
+
+ []
+
+[31]
+Underfull \hbox (badness 10000) in paragraph at lines 4138--4139
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4176--4177
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4193--4194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4209--4210
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4226--4227
+
+ []
+
+[32]
+Underfull \hbox (badness 10000) in paragraph at lines 4277--4278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4281--4282
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4283--4284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4285--4286
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4289--4290
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4293--4294
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4295--4296
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4297--4298
+
+ []
+
+[33]
+Underfull \hbox (badness 10000) in paragraph at lines 4435--4436
+
+ []
+
+
+Overfull \hbox (18.73608pt too wide) in paragraph at lines 4445--4447
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4451--4452
+
+ []
+
+
+Overfull \hbox (18.73608pt too wide) in paragraph at lines 4460--4462
+[][]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4474--4475
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4476--4477
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4478--4479
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4480--4481
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4520--4521
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4524--4525
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 4528--4529
+
+ []
+
+[34] ("Algebra 2 Chapter 5 Notes.aux") ) 
+Here is how much of TeX's memory you used:
+ 28642 strings out of 480236
+ 737481 string characters out of 2878657
+ 1165840 words of memory out of 3000000
+ 44745 multiletter control sequences out of 15000+200000
+ 547895 words of font info for 79 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 96i,18n,127p,750b,2528s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Users/amargraff/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/amargraff/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ama
+rgraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
+C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmbxti10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmex10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/amargraff/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/amargraff/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Users/amar
+graff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C
+:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmr10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmr12.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmr5.pfb><C:/Users/amargraff/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/amargraff/AppData/Local/P
+rograms/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amargraff/AppD
+ata/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/ama
+rgraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy5.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmsy9.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/amargraff/AppData/Local/Programs
+/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/amargraff/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb><C:/Users/amargra
+ff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb
+>
+Output written on "Algebra 2 Chapter 5 Notes.pdf" (34 pages, 381985 bytes).
+PDF statistics:
+ 202 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 13 words of extra memory for PDF output out of 10000 (max. 10000000)
+
