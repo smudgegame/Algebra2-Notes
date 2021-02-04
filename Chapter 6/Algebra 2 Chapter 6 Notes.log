@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  28 JAN 2021 16:00
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  4 FEB 2021 13:29
 entering extended mode
 **"./Algebra 2 Chapter 6 Notes.tex"
 ("Algebra 2 Chapter 6 Notes.tex"
@@ -1055,29 +1055,55 @@ Underfull \hbox (badness 10000) in paragraph at lines 1359--1361
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 1406--1411
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
 
+Overfull \hbox (62.39223pt too wide) in paragraph at lines 1406--1561
+[] 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 1432--1437
+Underfull \hbox (badness 10000) in paragraph at lines 1576--1581
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 1458--1463
+Underfull \hbox (badness 10000) in paragraph at lines 1602--1607
 
  []
 
 [20] ("Algebra 2 Chapter 6 Notes.aux") ) 
 Here is how much of TeX's memory you used:
- 25312 strings out of 480236
- 663650 string characters out of 2878657
- 1029803 words of memory out of 3000000
- 41465 multiletter control sequences out of 15000+200000
+ 25809 strings out of 480236
+ 677453 string characters out of 2878657
+ 1079911 words of memory out of 3000000
+ 41962 multiletter control sequences out of 15000+200000
  543464 words of font info for 58 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,15n,127p,747b,691s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 96i,18n,127p,747b,2503s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/amargraff/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/amargraff/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ama
@@ -1096,7 +1122,7 @@ fonts/cm/cmr5.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1
 fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amargraff/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/amargraff/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Algebra 2 Chapter 6 Notes.pdf" (20 pages, 223024 bytes).
+Output written on "Algebra 2 Chapter 6 Notes.pdf" (20 pages, 230005 bytes).
 PDF statistics:
  130 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

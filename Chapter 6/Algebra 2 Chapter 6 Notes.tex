@@ -1402,21 +1402,572 @@ A grain silo is in the shape of a cylinder with a hemisphere on top. The cylinde
 %%%%%%   Section 6.7   %%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- \section{   }
- \indent\hfill\small\noindent \textbf{Objective}:  \normalsize\\
+ \section{ Investing Graphs of Polynomial Functions }
+ \indent\hfill\small\noindent \textbf{Objective}: Use properties of end behavior to analyze, describe, and graph polynomial functions. \normalsize\\
  \setcounter{example}{0}
  \setcounter{definition}{0}
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- \begin{definition}
-     Definition
- \end{definition}
- \begin{example}
-     Example
- \end{example}
+
+
+\hspace{-1.75cm}
+\begin{tabular}[t]{|c|c|c|c|c|}
+\hline
+\multicolumn{5}{|c|}{\textbf{}}\\
+\multicolumn{5}{|c|}{\textbf{Graphs of Polynomial Functions}}\\
+\hline
+&&&&\\
+Linear& Quadratic &Cubic &Quartic &Quintic \\
+function&function&function&function&function\\
+Degree 1&Degree 2&Degree 3&Degree 4&Degree 5\\
+\begin{minipage}[t]{0.2\linewidth}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 4cm,
+					               height = 4cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none] {2*x};
+				\end{axis}
+			\end{tikzpicture}
+	\end{center}
+\end{minipage}
+&
+\begin{minipage}[t]{0.2\linewidth}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 4cm,
+					               height = 4cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none] {x^2-1.5};
+				\end{axis}
+			\end{tikzpicture}
+	\end{center}
+\end{minipage}
+&
+\begin{minipage}[t]{0.2\linewidth}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 4cm,
+					               height = 4cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none] {3* (x-0.5)*(x+0.5)*(x-1.25)};
+				\end{axis}
+			\end{tikzpicture}
+	\end{center}
+\end{minipage}
+&
+\begin{minipage}[t]{0.2\linewidth}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 4cm,
+					               height = 4cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none] {(x+1.75)*(x+0.25)*(x-0.5)*(x-1.25)};
+				\end{axis}
+			\end{tikzpicture}
+	\end{center}
+\end{minipage}
+&
+\begin{minipage}[t]{0.2\linewidth}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 4cm,
+					               height = 4cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none,restrict y to domain=-100:100] {4*(x^5+0.5*x^4-1.57*x^3-0.4*x^2+0.46*x)};
+				\end{axis}
+			\end{tikzpicture}
+	\end{center}
+\end{minipage}
+\\
+\hline
+\end{tabular}
+
+\begin{definition}
+\textbf{End behavior} is a description of the values of a function ($y$-values) as $x$ approaches positive infinity ($x \longrightarrow \infty$) or negative infinity ($x\longrightarrow \infty$).
+\end{definition}
+
+\begin{center}
+\begin{tabular}[t]{|c|c|c|}
+\hline
+\multicolumn{3}{|c|}{}\\
+\multicolumn{3}{|c|}{\textbf{Polynomial End Behavior}}\\
+\hline
+&&\\
+$\mathbf{P(x)\,} \textbf{ has..} $ &\textbf{Odd Degree} & \textbf{Even Degree}\\
+\hline
+Leading&&\\
+Coefficient &&\\
+$a>0$ &&\\
+&
+\begin{minipage}[t]{0.2\linewidth}
+	\vspace{-1.5cm}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 5cm,
+					               height = 5cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none] {0.5*x^3};
+				\end{axis}
+				\draw (0.5,3) node{\small As $ x\rightarrow +\infty$,};
+				\draw (0.5,2.5) node{\small$P(x)$ $\rightarrow +\infty$};
+				\draw (3,1) node{\small As $ x\rightarrow -\infty$,};
+				\draw (3,0.5) node{\small$P(x)$ $\rightarrow -\infty$};
+			\end{tikzpicture}	
+	\end{center}
+\end{minipage}
+\hspace{1cm}
+&
+\begin{minipage}[t]{0.2\linewidth}
+	\vspace{-1.5cm}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 5cm,
+					               height = 5cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none] {0.5*x^2};
+				\end{axis}
+				\draw (0.5,1) node{\small As $ x\rightarrow +\infty$,};
+				\draw (0.5,0.5) node{\small$P(x)$ $\rightarrow +\infty$};
+				\draw (3,1) node{\small As $ x\rightarrow -\infty$,};
+				\draw (3,0.5) node{\small$P(x)$ $\rightarrow +\infty$};
+			\end{tikzpicture}	
+	\end{center}
+\end{minipage}
+\hspace{1cm}
+\\
+\hline
+Leading&&\\
+Coefficient &&\\
+$a<0$ &&\\
+&
+\begin{minipage}[t]{0.2\linewidth}
+	\vspace{-1.5cm}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 5cm,
+					               height = 5cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none] {-0.5*x^3};
+				\end{axis}
+				\draw (0.5,1) node{\small As $ x\rightarrow +\infty$,};
+				\draw (0.5,0.5) node{\small$P(x)$ $\rightarrow -\infty$};
+				\draw (3,3) node{\small As $ x\rightarrow -\infty$,};
+				\draw (3,2.5) node{\small$P(x)$ $\rightarrow +\infty$};
+			\end{tikzpicture}	
+	\end{center}
+\end{minipage}
+\hspace{1cm}
+&
+\begin{minipage}[t]{0.2\linewidth}
+	\vspace{-1.5cm}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 5cm,
+					               height = 5cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none] {-0.5*x^2};
+				\end{axis}
+				\draw (0.5,3) node{\small As $ x\rightarrow +\infty$,};
+				\draw (0.5,2.5) node{\small$P(x)$ $\rightarrow -\infty$};
+				\draw (3,3) node{\small As $ x\rightarrow -\infty$,};
+				\draw (3,2.5) node{\small$P(x)$ $\rightarrow -\infty$};
+			\end{tikzpicture}	
+	\end{center}
+\end{minipage}
+\hspace{1cm}
+\\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{example}
+Identify the leading coefficient, degree and end behavior.
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) $P(x)=-4x^3-3x^2+5x+6$\\
+
+\underline{Degree:}\\
+
+\underline{Leading Coefficient}\\
+
+\underline{End Behavior:} As $x\longrightarrow +\infty$\\
+
+
+ \hspace{2.35cm }As $x\longrightarrow -\infty$
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) $R(x)=x^6-7x^5+x^3-2$\\
+
+\underline{Degree:}\\
+
+\underline{Leading Coefficient}\\
+
+\underline{End Behavior:} As $x\longrightarrow +\infty$\\
+
+
+ \hspace{2.35cm }As $x\longrightarrow -\infty$
+\end{minipage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{example}
+Identify whether the function graphed has an odd or even degree and a positive or negative leading coefficient.
+\end{example}
+
+
+
+\begin{minipage}[t]{0.45\linewidth}
+(a)
+\vspace{-1cm}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 6cm,
+					               height = 6cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none, restrict y to domain=-25:25] {3* (x-0.5)*(x+0.5)*(x-1.25)};
+				\end{axis}
+			\end{tikzpicture}
+	\end{center}
+	\underline{Degree:}\\
+	
+	\underline{Leading Coefficient:}\\
+	
+	(c)
+\vspace{-1cm}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 6cm,
+					               height = 6cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none, restrict y to domain=-25:25] {-1* (x-1.5)*(x+1.5)*(x-0.25)*(x-0.75)*(x+0.5)};
+				\end{axis}
+			\end{tikzpicture}
+	\end{center}
+	\underline{Degree:}\\
+	
+	\underline{Leading Coefficient:}\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b)
+\vspace{-1cm}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 6cm,
+					               height = 6cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none, restrict y to domain=-25:25] {3* (x-0.5)*(x+0.5)*(x-1.25)*x};
+				\end{axis}
+			\end{tikzpicture}
+	\end{center}
+	\underline{Degree:}\\
+	
+	\underline{Leading Coefficient:}\\
+	
+	(d)
+	\vspace{-1cm}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 6cm,
+					               height = 6cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none, restrict y to domain=-25:25] {-2*x^2-2*x-1};
+				\end{axis}
+			\end{tikzpicture}
+	\end{center}
+	\underline{Degree:}\\
+	
+	\underline{Leading Coefficient:}\\
+\end{minipage}
+
+\begin{youtry}
+Identify whether the function graphed has an odd or even degree and a positive or negative leading coefficient.
+\end{youtry}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a)
+\vspace{-1cm}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 6cm,
+					               height = 6cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none, restrict y to domain=-25:25] {-2*(x-1.75)*(x-1)*(x)*(x+0.5)};
+				\end{axis}
+			\end{tikzpicture}
+	\end{center}
+	\underline{Degree:}\\
+	
+	\underline{Leading Coefficient:}\\
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b)
+\vspace{-1cm}
+	\begin{center}
+	\begin{tikzpicture}[>=triangle 45,]
+				\begin{axis}[
+						    width = 6cm,
+					               height = 6cm,
+						    xmin=-2,xmax=2,
+						    ymin=-2,ymax=2,
+						    grid=none,
+						    grid style={line width=.15pt, draw=gray!20},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\tiny,fill=white},
+						    ticks=none,
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+						\addplot+[<->, red, ultra thick,samples=100, mark=none, restrict y to domain=-25:25] {-4*(x-1)*(x-0.5)*(x+0.75)*x*(x+1)};
+				\end{axis}
+			\end{tikzpicture}
+	\end{center}
+	\underline{Degree:}\\
+	
+	\underline{Leading Coefficient:}\\
+\end{minipage}
 
 \vfill
- \noindent\fbox{\large\textbf{6.7 Homework}: page \small }
+ \noindent\fbox{\large\textbf{6.7 Homework}: page 457 \, 2-9, 15-21 odd \small }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \newpage
