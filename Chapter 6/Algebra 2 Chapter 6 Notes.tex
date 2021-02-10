@@ -8,6 +8,7 @@
 \usepackage{tikz,pgfplots}
 \usepackage{graphicx}
 \usepackage{rotating}
+\usepackage{tcolorbox}
 \usetikzlibrary{arrows}
 \usepackage{array,booktabs,arydshln,xcolor}
 \usepgfplotslibrary{fillbetween}
@@ -1402,7 +1403,7 @@ A grain silo is in the shape of a cylinder with a hemisphere on top. The cylinde
 %%%%%%   Section 6.7   %%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- \section{ Investing Graphs of Polynomial Functions }
+ \section{ Investigating Graphs of Polynomial Functions }
  \indent\hfill\small\noindent \textbf{Objective}: Use properties of end behavior to analyze, describe, and graph polynomial functions. \normalsize\\
  \setcounter{example}{0}
  \setcounter{definition}{0}
@@ -1967,7 +1968,187 @@ Identify whether the function graphed has an odd or even degree and a positive o
 \end{minipage}
 
 \vfill
- \noindent\fbox{\large\textbf{6.7 Homework}: page 457 \, 2-9, 15-21 odd \small }
+ \noindent\fbox{\large\textbf{6.7 Homework (day 1)}: page 457 \, 2-9, 15-21 odd \small }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\Large\textbf{6.7 Investigating Graphs of Polynomial Functions (day 2)}\\
+
+ \indent\hfill\small\noindent \textbf{Objective}: Identify and use maxima and minima of polynomial functions to solve problems. \normalsize\\
+
+\vspace{-0.75cm}
+
+\begin{center}
+\begin{tabular}[t]{|l|}
+\hline
+\\
+\multicolumn{1}{|c|}{\textbf{Steps for Graphing a Polynomial Function}}\\
+\hline
+\\
+1. Find all zeros (x-intercepts) and y-intercepts of the function.\\
+\hline
+\\
+2. Plot the $x$- and $y$-intercept.\\
+\hline
+\\
+3. Make a table for several $x$-values that lie between the real zeros.\\
+\hline
+\\
+4. Plot the points from your table.\\
+\hline
+\\
+5. Determine end behavior.\\
+\hline
+\\
+6. Sketch the graph.\\
+\hline
+\end{tabular}
+\end{center}
+
+\begin{example}
+Graph the function.
+\end{example}
+$f(x)=x^3+3x^2-6x-8$
+
+
+\vspace{-1.5cm}
+
+\begin{flushright}
+	 \begin{tikzpicture}[>=latex,scale=0.825]
+			\begin{axis}[
+					    width =11cm,
+				               height=11cm,
+					    xmin=-10,xmax=10,
+					    ymin=-10,ymax=10,
+					    grid=both,
+					     grid style={line width=.2pt, draw=gray!50},
+					    major grid style={line width=.3pt,draw=gray!75},
+					    axis lines=middle,
+					    minor tick num=1,
+					    enlargelimits={abs=0.5},
+					    axis line style={latex-latex},
+					    ticklabel style={font=\small,fill=white},
+					    xlabel={\,\,$x$},
+					    ylabel={$y$},
+					    xlabel style={below right},
+					    ylabel style={above right},
+					]
+			\end{axis}
+			%\draw[color=blue,thick] plot (\x,\x*\x);
+	\end{tikzpicture}
+\end{flushright}
+
+\vfill
+
+\vspace{-0.25cm}
+
+\begin{example}
+Graph the function.
+\end{example}
+$f(x)=-x^3+2x^2+5x-6$
+
+\vspace{-1.5cm}
+
+\begin{flushright}
+	 \begin{tikzpicture}[>=latex,scale=0.825]
+			\begin{axis}[
+					    width =11cm,
+				               height=11cm,
+					    xmin=-10,xmax=10,
+					    ymin=-10,ymax=10,
+					    grid=both,
+					    grid style={line width=.2pt, draw=gray!50},
+					    major grid style={line width=.3pt,draw=gray!75},
+					    axis lines=middle,
+					    minor tick num=1,
+					    enlargelimits={abs=0.5},
+					    axis line style={latex-latex},
+					    ticklabel style={font=\small,fill=white},
+					    xlabel={\,\,$x$},
+					    ylabel={$y$},
+					    xlabel style={below right},
+					    ylabel style={above right},
+					]
+			\end{axis}
+			%\draw[color=blue,thick] plot (\x,\x*\x);
+	\end{tikzpicture}
+\end{flushright}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{definition}
+For a function $f(x)$, $f(a)$ is a \textbf{local maximum} if there is an interval around a such that $f(x)<f(a)$ for every $x$-value in the interval except $a$.
+\end{definition}
+
+\begin{definition}
+\,\,For a function $f(x)$, $f(a)$ is a \textbf{local minimum} if there is an interval around a such that \,\,$f(x)>f(a)$ for every $x$-value in the interval except $a$.
+\end{definition}
+
+\vspace{0.5cm}
+
+\noindent\large\textbf{Determine Maxima and Minima with a calculator}\normalsize\\
+
+\textbf{Step 1:} Type equations into \tcbox[size=small, on line]{$Y=$} and press  \tcbox[size=small, on line]{GRAPH}.\\
+
+\vspace{-0.5cm}
+
+\begin{center}
+\begin{minipage}[t]{0.85\linewidth}
+The graph appears to have one local maximum or minimum.\\
+\end{minipage}
+\end{center}
+
+\textbf{Step 2:} Find the maximum.\\
+
+\vspace{-0.5cm}
+
+\begin{center}
+\begin{minipage}[t]{0.85\linewidth}
+Press \tcbox[size=small, on line]{2nd} \tcbox[size=small, on line]{TRACE} to access the \texttt{CALC} menu. Choose \textbf{4: maximum}. Arrow to the left of maximum and press \tcbox[size=small, on line]{ENTER}, next arrow to the right of the maximum and press \tcbox[size=small, on line]{ENTER}.\\
+\end{minipage}
+\end{center}
+
+\textbf{Step 3:} Find the minimum.\\
+
+\vspace{-0.5cm}
+
+\begin{center}
+\begin{minipage}[t]{0.85\linewidth}
+Press \tcbox[size=small, on line]{2nd} \tcbox[size=small, on line]{TRACE} to access the \texttt{CALC} menu. Choose \textbf{3: minimum}. Arrow to the left of minimum and press \tcbox[size=small, on line]{ENTER}, next arrow to the right of the minimum and press \tcbox[size=small, on line]{ENTER}.\\
+\end{minipage}
+\end{center}
+
+
+\begin{example}
+Graph the function on a calculator, and estimate the local \textbf{maxima} and \textbf{minima}. 
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) $g(x)=2x^3-12x+6$
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) $f(x)=x^3-2x-3$
+\end{minipage}
+
+\vfill
+
+\begin{example}
+A welder plans to construct an open box from an 18.5 ft by 24.5 ft sheet of metal by cutting squares from the corners and folding up the sides. Find the maximum volume of the box and the corresponding dimensions.
+\end{example}
+
+
+\vfill
+
+ \noindent\fbox{\large\textbf{6.7 Homework (day 2)}: page 457 \, 10-14 all, 23, 25 \small }
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \newpage

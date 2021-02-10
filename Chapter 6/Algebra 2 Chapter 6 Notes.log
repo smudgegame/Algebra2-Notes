@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  4 FEB 2021 13:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  10 FEB 2021 16:40
 entering extended mode
 **"./Algebra 2 Chapter 6 Notes.tex"
 ("Algebra 2 Chapter 6 Notes.tex"
@@ -635,6 +635,37 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \rot@float@box=\box61
 \rot@mess@toks=\toks44
 )
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox
+.sty
+Package: tcolorbox 2020/10/09 version 4.42 text color boxes
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/tools\verbatim.sty
+Package: verbatim 2019/11/10 v1.5r LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks45
+\verbatim@line=\toks46
+\verbatim@in@stream=\read3
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/environ\environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/trimspaces\trimspac
+es.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\tcb@titlebox=\box62
+\tcb@upperbox=\box63
+\tcb@lowerbox=\box64
+\tcb@phantombox=\box65
+\c@tcbbreakpart=\count298
+\c@tcblayer=\count299
+\c@tcolorbox@number=\count300
+\tcb@temp=\box66
+\tcb@temp=\box67
+\tcb@temp=\box68
+\tcb@temp=\box69
+\tcb@out=\write4
+\tcb@record@out=\write5
+)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
 /tikz/libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
@@ -647,12 +678,12 @@ File: pgflibraryarrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
 \col@sep=\dimen281
-\ar@mcellbox=\box62
+\ar@mcellbox=\box70
 \extrarowheight=\dimen282
-\NC@list=\toks45
+\NC@list=\toks47
 \extratabsurround=\skip69
 \backup@length=\skip70
-\ar@cellbox=\box63
+\ar@cellbox=\box71
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.s
 ty
@@ -667,12 +698,12 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen290
 \cmidrulekern=\dimen291
 \defaultaddspace=\dimen292
-\@cmidla=\count298
-\@cmidlb=\count299
+\@cmidla=\count301
+\@cmidlb=\count302
 \@aboverulesep=\dimen293
 \@belowrulesep=\dimen294
-\@thisruleclass=\count300
-\@lastruleclass=\count301
+\@thisruleclass=\count303
+\@lastruleclass=\count304
 \@thisrulewidth=\dimen295
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/arydshln\arydshln.s
@@ -680,23 +711,23 @@ ty
 Package: arydshln 2019/02/21 v1.76 
 \dashlinedash=\dimen296
 \dashlinegap=\dimen297
-\adl@box=\box64
+\adl@box=\box72
 \adl@height=\dimen298
 \adl@heightsave=\dimen299
 \adl@depth=\dimen300
 \adl@depthsave=\dimen301
 \adl@finaldepth=\dimen302
-\adl@columns=\count302
-\adl@ncol=\count303
-\adl@currentcolumn=\count304
-\adl@currentcolumnsave=\count305
-\adl@totalheight=\count306
-\adl@totalheightsave=\count307
-\adl@dash=\count308
-\adl@gap=\count309
-\adl@cla=\count310
-\adl@clb=\count311
-\adl@everyvbox=\toks46
+\adl@columns=\count305
+\adl@ncol=\count306
+\adl@currentcolumn=\count307
+\adl@currentcolumnsave=\count308
+\adl@totalheight=\count309
+\adl@totalheightsave=\count310
+\adl@dash=\count311
+\adl@gap=\count312
+\adl@cla=\count313
+\adl@clb=\count314
+\adl@everyvbox=\toks48
 \adl@LTpagetotal=\dimen303
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tik
@@ -707,7 +738,7 @@ ib\tikzlibraryfillbetween.code.tex
 /tikz/libraries\tikzlibraryintersections.code.tex
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgf
 libraryintersections.code.tex
-\pgf@intersect@solutions=\count312
+\pgf@intersect@solutions=\count315
 ))
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontr
 ib\tikzlibrarydecorations.softclip.code.tex
@@ -720,33 +751,33 @@ zlibrarypgfplots.decorations.softclip.code.tex))
 \dividendheight=\skip73
 \divisorheight=\skip74
 \maxheight=\skip75
-\c@example=\count313
-\c@youtry=\count314
-\c@definition=\count315
-\c@theorem=\count316
+\c@example=\count316
+\c@youtry=\count317
+\c@definition=\count318
+\c@theorem=\count319
 
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
 -pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count317
-\l__pdf_internal_box=\box65
+\l__kernel_color_stack_int=\count320
+\l__pdf_internal_box=\box73
 ) ("Algebra 2 Chapter 6 Notes.aux")
 \openout1 = `"Algebra 2 Chapter 6 Notes.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 203.
-LaTeX Font Info:    ... okay on input line 203.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 204.
+LaTeX Font Info:    ... okay on input line 204.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -786,17 +817,17 @@ LaTeX Font Info:    ... okay on input line 203.
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
 f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count318
+\scratchcounter=\count321
 \scratchdimen=\dimen304
-\scratchbox=\box66
-\nofMPsegments=\count319
-\nofMParguments=\count320
-\everyMPshowfont=\toks47
-\MPscratchCnt=\count321
+\scratchbox=\box74
+\nofMPsegments=\count322
+\nofMParguments=\count323
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count324
 \MPscratchDim=\dimen305
-\MPnumerator=\count322
-\makeMPintoPDFobject=\count323
-\everyMPtoPDFconversion=\toks48
+\MPnumerator=\count325
+\makeMPintoPDFobject=\count326
+\everyMPtoPDFconversion=\toks50
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
 df-base.sty
@@ -808,253 +839,257 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.17} (current compat level: 1.16).
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 221--222
+Underfull \hbox (badness 10000) in paragraph at lines 222--223
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 255--256
+Underfull \hbox (badness 10000) in paragraph at lines 256--257
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 273--274
+Underfull \hbox (badness 10000) in paragraph at lines 274--275
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 291--292
+Underfull \hbox (badness 10000) in paragraph at lines 292--293
 
  []
 
 [1{C:/Users/amargraff/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 350--351
+Underfull \hbox (badness 10000) in paragraph at lines 351--352
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 356--357
 
  []
 
 [2]
-Underfull \hbox (badness 10000) in paragraph at lines 462--463
+Underfull \hbox (badness 10000) in paragraph at lines 463--464
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 477--478
+Underfull \hbox (badness 10000) in paragraph at lines 478--479
 
  []
 
 [3]
-Underfull \hbox (badness 10000) in paragraph at lines 526--531
+Underfull \hbox (badness 10000) in paragraph at lines 527--532
 
  []
 
 [4] [5]
-Underfull \hbox (badness 10000) in paragraph at lines 637--642
+Underfull \hbox (badness 10000) in paragraph at lines 638--643
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 710--712
+Underfull \hbox (badness 10000) in paragraph at lines 711--713
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 794--795
+Underfull \hbox (badness 10000) in paragraph at lines 795--796
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 796--797
+Underfull \hbox (badness 10000) in paragraph at lines 797--798
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 809--810
+Underfull \hbox (badness 10000) in paragraph at lines 810--811
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 823--824
+Underfull \hbox (badness 10000) in paragraph at lines 824--825
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 839--840
+Underfull \hbox (badness 10000) in paragraph at lines 840--841
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 863--864
+Underfull \hbox (badness 10000) in paragraph at lines 864--865
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 879--880
+Underfull \hbox (badness 10000) in paragraph at lines 880--881
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 918--923
+Underfull \hbox (badness 10000) in paragraph at lines 919--924
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 980--982
+Underfull \hbox (badness 10000) in paragraph at lines 981--983
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 1052--1053
+Underfull \hbox (badness 10000) in paragraph at lines 1053--1054
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1054--1055
+Underfull \hbox (badness 10000) in paragraph at lines 1055--1056
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1056--1057
+Underfull \hbox (badness 10000) in paragraph at lines 1057--1058
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1060--1061
+Underfull \hbox (badness 10000) in paragraph at lines 1061--1062
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1063--1064
+Underfull \hbox (badness 10000) in paragraph at lines 1064--1065
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1069--1070
+Underfull \hbox (badness 10000) in paragraph at lines 1070--1071
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1072--1073
+Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1078--1079
+Underfull \hbox (badness 10000) in paragraph at lines 1079--1080
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1083--1084
+Underfull \hbox (badness 10000) in paragraph at lines 1084--1085
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1086--1087
+Underfull \hbox (badness 10000) in paragraph at lines 1087--1088
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1089--1090
+Underfull \hbox (badness 10000) in paragraph at lines 1090--1091
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1095--1096
+Underfull \hbox (badness 10000) in paragraph at lines 1096--1097
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1098--1099
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1101--1102
+Underfull \hbox (badness 10000) in paragraph at lines 1102--1103
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 1113--1114
+Underfull \hbox (badness 10000) in paragraph at lines 1114--1115
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1118--1119
+Underfull \hbox (badness 10000) in paragraph at lines 1119--1120
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1121--1122
+Underfull \hbox (badness 10000) in paragraph at lines 1122--1123
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1124--1125
+Underfull \hbox (badness 10000) in paragraph at lines 1125--1126
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1130--1131
+Underfull \hbox (badness 10000) in paragraph at lines 1131--1132
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1133--1134
+Underfull \hbox (badness 10000) in paragraph at lines 1134--1135
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1136--1137
+Underfull \hbox (badness 10000) in paragraph at lines 1137--1138
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1142--1143
+Underfull \hbox (badness 10000) in paragraph at lines 1143--1144
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1147--1148
+Underfull \hbox (badness 10000) in paragraph at lines 1148--1149
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1150--1151
+Underfull \hbox (badness 10000) in paragraph at lines 1151--1152
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1156--1157
+Underfull \hbox (badness 10000) in paragraph at lines 1157--1158
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1159--1160
+Underfull \hbox (badness 10000) in paragraph at lines 1160--1161
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 1181--1186
+Underfull \hbox (badness 10000) in paragraph at lines 1182--1187
 
  []
 
 [14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 1277--1282
+Underfull \hbox (badness 10000) in paragraph at lines 1278--1283
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1359--1361
+Underfull \hbox (badness 10000) in paragraph at lines 1360--1362
 
  []
 
 [17]
+Underfull \hbox (badness 10000) in paragraph at lines 1407--1412
+
+ []
+
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no 1 in font nullfont!
@@ -1081,29 +1116,245 @@ Missing character: There is no 1 in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no t in font nullfont!
 
-Overfull \hbox (62.39223pt too wide) in paragraph at lines 1406--1561
-[] 
+Overfull \hbox (29.82213pt too wide) in paragraph at lines 1414--1566
+[]  [] 
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Overfull \hbox (28.9349pt too wide) in paragraph at lines 1613--1614
+ [] 
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Overfull \hbox (28.9349pt too wide) in paragraph at lines 1647--1648
+ [] 
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Overfull \hbox (28.9349pt too wide) in paragraph at lines 1686--1687
+ [] 
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Overfull \hbox (28.9349pt too wide) in paragraph at lines 1720--1721
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1734--1735
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1736--1737
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1738--1739
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1740--1741
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1747--1748
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1749--1750
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1751--1752
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1753--1754
+
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 1576--1581
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1800--1801
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1802--1803
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1831--1832
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1833--1834
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1864--1865
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1866--1867
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1895--1896
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1897--1898
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1932--1933
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1934--1935
+
+ []
+
+Missing character: There is no . in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no t in font nullfont!
+
+Underfull \hbox (badness 10000) in paragraph at lines 1965--1966
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1967--1968
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 1602--1607
+Underfull \hbox (badness 10000) in paragraph at lines 1978--1979
 
  []
 
-[20] ("Algebra 2 Chapter 6 Notes.aux") ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 1980--1981
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 2096--2097
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2098--2099
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2104--2105
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2108--2109
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2114--2115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2118--2119
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2124--2125
+
+ []
+
+[21]
+Underfull \hbox (badness 10000) in paragraph at lines 2164--2169
+
+ []
+
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 2190--2195
+
+ []
+
+[23] ("Algebra 2 Chapter 6 Notes.aux") ) 
 Here is how much of TeX's memory you used:
- 25809 strings out of 480236
- 677453 string characters out of 2878657
- 1079911 words of memory out of 3000000
- 41962 multiletter control sequences out of 15000+200000
- 543464 words of font info for 58 fonts, out of 3000000 for 9000
+ 27674 strings out of 480236
+ 724642 string characters out of 2878657
+ 1164303 words of memory out of 3000000
+ 43809 multiletter control sequences out of 15000+200000
+ 544470 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,18n,127p,747b,2503s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 96i,18n,127p,747b,2530s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/amargraff/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/amargraff/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ama
@@ -1114,17 +1365,21 @@ C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/amargraff/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/amargraff/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/amargra
-ff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/U
+ff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/U
 sers/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-12.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr5.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmr7.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amargraff/AppData/Local/Progr
-ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/amargraff/AppData/
-Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "Algebra 2 Chapter 6 Notes.pdf" (20 pages, 230005 bytes).
+10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr12.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr5.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/amargraff/AppData/Local/Prog
+rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/amargraff/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/amargr
+aff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
+/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
+msy9.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmtt10.pfb>
+Output written on "Algebra 2 Chapter 6 Notes.pdf" (23 pages, 277162 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
+ 151 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
