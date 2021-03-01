@@ -1,0 +1,1032 @@
+\documentclass{report}
+\usepackage{amsmath}
+\usepackage[margin=0.75in]{geometry}
+\usepackage{fancyhdr}
+\usepackage{etoolbox}
+\usepackage{amsthm}
+\usepackage{calc}
+\usepackage{tikz,pgfplots}
+\usepackage{graphicx}
+\usepackage{rotating}
+\usepackage{tcolorbox}
+\usetikzlibrary{arrows}
+\usepackage{array,booktabs,arydshln,xcolor}
+\usepgfplotslibrary{fillbetween}
+\pgfplotsset{compat=1.16,width=10cm}
+
+
+%% New colors
+
+\definecolor{darkgreen}{rgb}{0.0, 0.4, 0.2}
+
+%%Section and chapter references macros
+%%%%%%%%%%%%%%%%%%%
+
+\makeatletter
+\newcommand*{\currentname}{\@currentlabelname}
+\makeatother
+
+\newcommand\getcurrentref[1]{%
+ \ifnumequal{\value{#1}}{0}
+  {??}
+  {\the\value{#1}}%
+}    
+
+\newcommand{\longdivision}[2]{
+    \settowidth{\dividendlength}{#1}
+    \settowidth{\divisorlength}{#2}
+    \settoheight{\dividendheight}{#1}
+    \settoheight{\maxheight}{#1#2}
+    \settoheight{\divisorheight}{#2}
+
+    \begin{tikzpicture} [baseline=.5pt]
+        \node at (-.5*\divisorlength-1pt,.5*\divisorheight) {#2};
+        \node at (.5*\dividendlength+5pt,.5*\dividendheight) {#1};
+        \draw [thick]  (0pt,-.22*\dividendheight) arc (-70:60:\maxheight*.41 and \maxheight*.82) -- ++(\dividendlength+7pt,0pt);
+    \end{tikzpicture}
+}
+
+\newlength{\dividendlength}
+\newlength{\divisorlength}
+\newlength{\dividendheight}
+\newlength{\divisorheight}
+\newlength{\maxheight}
+
+%%%%%%%Commands%%%%%%%%%%%%%%%%%%%%%
+\theoremstyle{definition}
+\newtheorem{example}{\bf Example}
+\newtheorem{youtry}{\bf You Try It!}
+\newtheorem{definition}{\bf Definition}[section]
+\newtheorem{theorem}{\bf Theorem}[section]
+
+
+
+
+%%%%%%%%%%%%%Header%%%%%%%%%%%%%%%%%%%
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\lhead{}
+\rhead{Algebra 2: Section  \getcurrentref{chapter}.\getcurrentref{section}}
+\cfoot{ }
+\rfoot{Page \thepage}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% Set start page here 
+\setcounter{page}{1}
+
+
+
+%%% Set Chapter counter here
+\setcounter{chapter}{7}
+\setcounter{section}{0}
+
+
+%%%%%%%%%%%%%%% New Section Template %%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%   Section _._   %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \section{    NAME HERE   }
+% \setcounter{example}{0}
+% \setcounter{definition}{0}
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \begin{definition}
+%     Definition
+% \end{definition}
+% \begin{example}
+%     Example
+% \end{example}
+%
+%\vspace{-0.5cm}
+%\hspace{-0.5cm}
+%%
+%% LeftOfPage%%%%%
+%\begin{minipage}{0.45\linewidth}
+% \begin{itemize}
+%     \item[(a)]
+% \end{itemize}
+%%
+%\vspace{2.75cm}
+%%
+% \begin{itemize}
+%     \item[(c)]
+% \end{itemize}
+%%
+%\vspace{2.75cm}
+%%
+%\end{minipage}
+%\hspace{1.5cm}
+%%RightOfPage%%%%%
+%\begin{minipage}{0.45\linewidth}
+% \begin{itemize}
+%     \item[(b)]
+% \end{itemize}
+%%
+%\vspace{2.75cm}
+%%
+% \begin{itemize}
+%     \item[(d)]
+% \end{itemize}
+%%
+%\vspace{2.75cm}
+%%
+%\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%%
+%
+%%%%%%%%%%%%%%%%% Example 2
+%\begin{example}
+%     Use \textbf{elimination} to solve each system of equations.
+%\end{example}
+%%
+%\vspace{-0.5cm}
+%\hspace{-0.5cm}
+%%
+%% LeftOfPage%%%%%
+%\begin{minipage}{0.45\linewidth}
+% \begin{itemize}
+%     \item[(a)]
+% \end{itemize}
+%%
+%\vspace{2.75cm}
+%%
+% \begin{itemize}
+%     \item[(c)]
+% \end{itemize}
+%%
+%\vspace{2.75cm}
+%%
+%\end{minipage}
+%\hspace{1.5cm}
+%%RightOfPage%%%%%
+%\begin{minipage}{0.45\linewidth}
+% \begin{itemize}
+%     \item[(b)]
+% \end{itemize}
+%%
+%\vspace{2.75cm}
+%%
+% \begin{itemize}
+%     \item[(d)]
+% \end{itemize}
+%%
+%\vspace{2.75cm}
+%%
+%\end{minipage}
+%%%%%%%%%%%%%%%%%%%%%
+%\vfill
+% \noindent\fbox{\large\textbf{_._ Homework}: page \small }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+% number line example%%%%
+%\begin{tikzpicture}
+        %\draw[latex-latex] (-3.5,0) -- (3.5,0) ; %edit here for the axis
+        %\foreach \x in  {-3,-2,-1,0,1,2,3} % edit here for the vertical lines
+        %\draw[shift={(\x,0)},color=black] (0pt,3pt) -- (0pt,-3pt);
+        %\foreach \x in {-3,-2,-1,0,1,2,3} % edit here for the numbers
+        %\draw[shift={(\x,0)},color=black] (0pt,0pt) -- (0pt,-3pt) node[below] 
+        %{$\x$};
+        %\draw[*-o] (0.92,0) -- (2.08,0);
+        %\draw[very thick] (0.92,0) -- (1.92,0);
+%\end{tikzpicture}
+
+
+
+\setcounter{section}{-1}
+\begin{document}
+
+\noindent\LARGE\textbf{Chapter 7 Exponential Logarithmic Functions}\normalsize
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%   Section 7.0   %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\rhead{Algebra 2: Section  \getcurrentref{chapter}.0}
+ \section{Pre-assessment }
+ \setcounter{section}{0}
+ \setcounter{example}{0}
+ \setcounter{definition}{0}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \vspace{0.5cm}
+ 
+\textbf{Match each of the vocabulary terms on the left with the appropriate letter and definition on the right.}\\
+
+\begin{enumerate}
+	\begin{minipage}[t]{0.45\linewidth}
+	
+			\item .
+				\vspace{0.25cm}
+			\item .
+				\vspace{0.25cm}
+			\item .
+				\vspace{0.25cm}
+			\item .
+				\vspace{0.25cm}
+			\item.
+				\vspace{0.25cm}
+	
+	\end{minipage}
+	\begin{minipage}[t]{0.45\linewidth}
+		\begin{itemize}
+			\item[A.] 
+				\vspace{0.25cm}
+			\item[B.] 
+				\vspace{0.25cm}
+			\item[C.] 
+				\vspace{0.25cm}
+			\item[D.] 
+				\vspace{0.25cm}
+			\item[E.] 
+				\vspace{0.25cm}
+			\item[F.] 
+				\vspace{0.25cm}
+		\end{itemize}
+	\end{minipage}
+\end{enumerate}
+\noindent \textbf{Evaluate each expression.}\\
+
+\begin{enumerate}
+\setcounter{enumi}{5}
+	\begin{minipage}[t]{0.225\linewidth}
+	\item .
+	\end{minipage}
+	\begin{minipage}[t]{0.225\linewidth}
+	\item .
+	\end{minipage}
+	\begin{minipage}[t]{0.225\linewidth}
+	\item .
+	\end{minipage}
+	\begin{minipage}[t]{0.225\linewidth}
+	\item .
+	\end{minipage}
+\end{enumerate}
+
+\noindent \textbf{Evaluate each expression for the given value of the variable.}\\
+
+\begin{enumerate}
+\setcounter{enumi}{9}
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+			\vspace{1cm}
+		\item .
+			\vspace{1cm}
+	\end{minipage}
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+			\vspace{1cm}
+		\item .
+			\vspace{1cm}
+	\end{minipage}
+\end{enumerate}
+
+\noindent \textbf{Multiply or divide.}\\
+
+\begin{enumerate}
+\setcounter{enumi}{13}
+	\begin{minipage}[t]{0.225\linewidth}
+	\item .
+	\end{minipage}
+	\begin{minipage}[t]{0.225\linewidth}
+	\item .
+	\end{minipage}
+	\begin{minipage}[t]{0.225\linewidth}
+	\item .
+	\end{minipage}
+	\begin{minipage}[t]{0.225\linewidth}
+	\item .
+	\end{minipage}
+\end{enumerate}
+\vfill
+\begin{flushright}
+\rotatebox{180}{\color{red}10. 11. 12. 13. 14. 15. 16. 17. \color{black}   }\\
+\vspace{0.5cm}
+\rotatebox{180}{\color{red}1. 2. 3. 4. 5. 6. 7. 8. 9.\color{black}}
+\end{flushright}
+	
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%   Section 7.1   %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\rhead{Algebra 2: Section  \getcurrentref{chapter}.\getcurrentref{section}}
+\setcounter{section}{0}
+ \section{ Exponential Functions, growth and Decay }
+ \indent\hfill\small\noindent \textbf{Objective}: Write and evaluate exponential expressions to model ggrowth and decay situations. \normalsize\\
+ \vspace{-0.5cm}
+ \setcounter{example}{0}
+ \setcounter{definition}{0}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{definition}
+
+\end{definition}
+
+\begin{example}
+
+\end{example}
+
+\begin{itemize}
+	\begin{minipage}[t]{0.45\linewidth}
+		\item[(a)] 
+		
+		\item[(b)]	
+	\end{minipage}
+	\begin{minipage}[t]{0.45\linewidth}
+		\item[(c)] 
+		
+		\item[(d)] 
+		
+	\end{minipage}
+\end{itemize}
+
+\begin{example}
+\end{example}
+
+\begin{itemize}
+	\begin{minipage}[t]{0.45\linewidth}
+		\item[(a)] 
+		
+		\item[(b)]	
+	\end{minipage}
+	\begin{minipage}[t]{0.45\linewidth}
+		\item[(c)] 
+		
+		\item[(d)] 
+		
+	\end{minipage}
+\end{itemize}
+
+
+\begin{itemize}
+	\begin{minipage}[t]{0.45\linewidth}
+		\item[(a)] 
+		
+		\item[(b)]	
+	\end{minipage}
+	\begin{minipage}[t]{0.45\linewidth}
+		\item[(c)] 
+		
+		\item[(d)] 
+		
+	\end{minipage}
+\end{itemize}
+\vfill
+
+ \noindent\fbox{\large\textbf{7.1 (day 1) Homework}: page \small } \hfill 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\Large{\textbf{Exponential Functions (day 2)}}  \indent\hfill\small\noindent \textbf{Objective}: Write and evaluate exponential expressions to model ggrowth and decay situations.\normalsize\\
+
+\begin{youtry}
+\end{youtry}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) 
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) 
+\end{minipage}
+\vfill
+
+\begin{example}
+\end{example}
+\begin{itemize}
+	\item[(a)] 
+	\vfill
+	\item[(b)] 
+	\vfill
+\end{itemize}
+
+\begin{example}
+\end{example}
+
+
+\begin{minipage}[t]{0.45\linewidth}
+	\begin{itemize}
+		\item[(a)] 
+		\vspace{1cm}
+		\item[(c)] 
+	\end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+	\begin{itemize}
+		\item[(b)] 
+		\vspace{1cm}
+		\item[(d)] 
+	\end{itemize}
+\end{minipage}
+\vfill
+
+
+ \noindent\fbox{\large\textbf{7.1 (day 2) Homework}: page \small } \hfill 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%   Section 7.2   %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Inverse of Relations and Functions }
+ \indent\hfill\small\noindent \textbf{Objective}: Graph and recognize inverses of relations and functions. Find Inverses of functions\normalsize\\
+ \setcounter{example}{0}
+ \setcounter{definition}{0}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\vspace{-0.5cm}
+
+ \begin{example}
+
+ \end{example}
+\begin{minipage}[t]{0.45\linewidth}
+	\begin{itemize}
+		\item[(a)] 
+	\end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+	\begin{itemize}
+		\item[(b)] 
+	\end{itemize}
+\end{minipage}
+
+\vfill
+
+\begin{example}
+
+\end{example}
+\begin{minipage}[t]{0.45\linewidth}
+	\begin{itemize}
+		\item[(a)] 
+	\end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+	\begin{itemize}
+		\item[(b)] 
+	\end{itemize}
+\end{minipage}
+\vfill
+
+\begin{example}
+
+\end{example}
+
+\vfill
+
+
+
+ \noindent\fbox{\large\textbf{7.2 Homework (day 1)}: page\small }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%   Section 7.3   %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{ Logarithmic Functions  }
+  \indent\hfill\small\noindent \textbf{Objective}: Write equivalent forms for exponential and logarithmic functions. \normalsize\\
+ \setcounter{example}{0}
+ \setcounter{definition}{0}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\hspace{-0.5cm}\begin{minipage}[t]{0.45\linewidth}
+	 \begin{example}
+
+	 \end{example}
+	 \begin{itemize}
+	 	\item[(a)] 
+	 \end{itemize}
+\end{minipage}
+\hspace{1.25cm}
+ \begin{minipage}[t]{0.45\linewidth}
+ 	 \begin{youtry}
+
+ 	 \end{youtry}
+	 \begin{itemize}
+	 	\item[(b)]
+	 \end{itemize}
+\end{minipage}
+ \vfill
+ \begin{example}
+
+ \end{example}
+ 
+\begin{minipage}[t]{0.45\linewidth}
+(a) 
+\end{minipage}
+ \hfill
+ \begin{minipage}[t]{0.45\linewidth}
+(b) 
+\end{minipage}
+\vfill
+ \vfill
+ 
+ \begin{example}
+
+ \end{example}
+\begin{minipage}[t]{0.45\linewidth}
+(a) 
+\end{minipage}
+ \hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) 
+\end{minipage}
+\vfill
+\begin{example}
+
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) 
+\end{minipage}
+ \hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) 
+\end{minipage}
+\vfill
+
+ 
+ \noindent\fbox{\large\textbf{7.3 (day 1) Homework}: page  \small }
+ 
+ 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\Large{\textbf{7.3 (day 2)}} 
+  \indent\hfill\small\noindent \textbf{Objective}: Write, evaluate, and graph logarithmic functions.  \normalsize\\
+
+ 
+ \begin{youtry}
+
+ \end{youtry}
+ 
+\begin{minipage}[t]{0.45\linewidth}
+(a) 
+\end{minipage}
+ \hfill
+ \begin{minipage}[t]{0.45\linewidth}
+(b) 
+\end{minipage}
+\vfill
+\vfill
+ 
+ \begin{example}
+
+ \end{example}
+\begin{minipage}[t]{0.45\linewidth}
+(a) 
+\end{minipage}
+ \hfill
+\begin{minipage}[t]{0.45\linewidth}
+
+(b)
+\end{minipage}
+\vfill
+
+\begin{example}
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) 
+\end{minipage}
+ \hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) 
+\end{minipage}
+\vfill
+
+ 
+ \noindent\fbox{\large\textbf{7.3 (day 2) Homework}: page  \small }
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\rhead{Algebra 2: Section  \getcurrentref{chapter}.\getcurrentref{section}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%   Section 7.4   %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Properties of Logarithms}
+ \indent\hfill\small\noindent \textbf{Objective}:  Use properties to simplify logarithmic expressions. \normalsize\\
+ \setcounter{example}{0}
+ \setcounter{definition}{0}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+\begin{example}
+\end{example}
+\begin{minipage}[t]{0.45\linewidth}
+ (a) 
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+ (b) 
+\end{minipage}
+\vfill
+
+\begin{example}
+
+\end{example}
+\begin{minipage}[t]{0.45\linewidth}
+ (a) 
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+ (b) 
+\end{minipage}
+\vfill
+\begin{youtry}
+
+\end{youtry}
+\begin{minipage}[t]{0.45\linewidth}
+ (a) 
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+ (b) 
+\end{minipage}
+\vfill
+
+\vfill
+ \noindent\fbox{\large\textbf{7.4 (day 1) Homework}: page   \small }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\Large{\textbf{7.4 (day 2) Properties of Logarithms}} 
+\indent\hfill\small\noindent \textbf{Objective}: Translate between logarithms in any base.  \normalsize\\
+
+\begin{example}
+
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+ (a) 
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+ (b) 
+\end{minipage}
+\vfill
+
+\begin{youtry}
+
+\end{youtry}
+
+\begin{minipage}[t]{0.45\linewidth}
+ (a) 
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+ (b) 
+\end{minipage}
+\vfill
+
+
+
+\vfill
+ \noindent\fbox{\large\textbf{7.4 (day 2) Homework}: page   \small }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%   Section 7.6   %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{section}{5}
+\rhead{Algebra 2: Section  \getcurrentref{chapter}.\getcurrentref{section}}
+ \section{ The Natural Base, $e$}
+ \indent\hfill\small\noindent \textbf{Objective}: Use the number $e$ to write and graph exponential functions representing real-world.\normalsize\\
+ \setcounter{example}{0}
+ \setcounter{definition}{0}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \begin{example}
+ \end{example}
+ 
+ \begin{minipage}[t]{0.45\linewidth}
+ (a) 
+ \end{minipage}
+ \hfill
+ \begin{minipage}[t]{0.45\linewidth}
+ (b) 
+ \end{minipage}
+\vfill
+
+ \begin{youtry}
+
+ \end{youtry}
+ 
+ \begin{minipage}[t]{0.45\linewidth}
+ (a) 
+ \end{minipage}
+ \hfill
+ \begin{minipage}[t]{0.45\linewidth}
+ (b) 
+ \end{minipage}
+\vfill
+
+\begin{definition}
+\end{definition}
+
+\begin{example}
+
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) 
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) 
+\end{minipage}
+
+
+\vfill
+\noindent\fbox{\large\textbf{7.6 Homework (day 1)}: page  \small }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent \Large \textbf{7.6 The Natural Base, $e$ (day 2)} \normalsize
+ \indent\hfill\small\noindent \textbf{Objective}: Solve equations and problems involving $e$ or natural logarithms.\normalsize\\
+
+\begin{example}
+
+\end{example}
+\vfill
+
+\begin{example}
+
+\end{example}
+(a) 
+\vfill
+
+(b) 
+
+
+\vfill
+\noindent\fbox{\large\textbf{7.6 Homework (day 2)}: page \small }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%   Section 7.7   %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \section{Transforming Exponential and Logarithmic Functions }
+ \noindent \hfill\small \noindent \textbf{Objective}: Transform exponential and logarithmic functions by changing parameters.. \normalsize\\
+ \setcounter{example}{0}
+ \setcounter{definition}{0}
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{example}
+
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a)  
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) 
+\end{minipage}
+
+\vfill
+
+\begin{example}
+
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) 
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) 
+\end{minipage}
+
+
+\vfill
+\vfill
+ \noindent\fbox{\large\textbf{7.7 Homework (day 1)}: page  \small }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\noindent\Large\textbf{7.7 Transforming Exponential and Logarithmic Functions (day 2)}\\
+\noindent \hfill\small \noindent \textbf{Objective}: Describe the effects of changes in the coefficients of exponential and logarithmic functions. \normalsize\\
+
+\begin{example}
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a)  
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) 
+\end{minipage}
+
+\vfill
+
+\begin{example}
+
+\end{example}
+\vfill
+
+
+\begin{example}
+
+\end{example}
+
+
+\vfill
+\noindent\fbox{\large\textbf{7.7 Homework (day 2)}: page }
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%   Chapter 7 Review   %%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\rhead{Algebra 2: Chapter \getcurrentref{chapter} Review} 
+\hspace{-1.6cm} \noindent\Large\textbf{Chapter 7 Review (day 1)}\large
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{enumerate}
+
+
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	\vspace{3cm}
+	
+\hspace{-2cm}  \\
+
+	\begin{minipage}[t]{0.45\linewidth}
+		\item  .
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	\vspace{3cm}
+	
+\hspace{-2cm}  \\
+
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	
+	\vspace{4cm}
+	
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	
+	\vspace{4cm}
+	
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+
+
+
+
+\vfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\hspace{-2cm} 
+
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	
+	\vspace{4cm}
+	
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	
+		\vspace{4cm}
+	
+\hspace{-2cm} 
+	
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	\hfill
+	\begin{minipage}[t]{0.45\linewidth}
+		\item .
+	\end{minipage}
+	
+	\vspace{4cm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\hspace{-2cm}\noindent \hfill \textbf{Ch 7 Review (day 2)}\\ \normalsize
+
+
+
+\end{enumerate}
+
+\end{document}
+
+
+
+
+
+
+
+
+
+
