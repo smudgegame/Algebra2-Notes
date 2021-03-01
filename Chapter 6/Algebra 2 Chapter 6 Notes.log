@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  24 FEB 2021 15:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  1 MAR 2021 16:47
 entering extended mode
 **"./Algebra 2 Chapter 6 Notes.tex"
 ("Algebra 2 Chapter 6 Notes.tex"
@@ -1585,7 +1585,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 2931--2932
 Here is how much of TeX's memory you used:
  27785 strings out of 480236
  726739 string characters out of 2878657
- 1173303 words of memory out of 3000000
+ 1173304 words of memory out of 3000000
  43920 multiletter control sequences out of 15000+200000
  544470 words of font info for 62 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1613,7 +1613,7 @@ sers/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cms
 y10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
 sfonts/cm/cmsy9.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/typ
 e1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Algebra 2 Chapter 6 Notes.pdf" (27 pages, 314568 bytes).
+Output written on "Algebra 2 Chapter 6 Notes.pdf" (27 pages, 314572 bytes).
 PDF statistics:
  168 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
