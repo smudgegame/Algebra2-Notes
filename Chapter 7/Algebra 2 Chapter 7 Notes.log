@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  1 MAR 2021 16:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  2 MAR 2021 15:03
 entering extended mode
 **"./Algebra 2 Chapter 7 Notes.tex"
 ("Algebra 2 Chapter 7 Notes.tex"
@@ -79,6 +79,27 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2923.
 LaTeX Info: Redefining \] on input line 2924.
 )
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.st
+y
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.s
+ty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.s
+ty
+Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
+\multirow@colwidth=\skip52
+\multirow@cntb=\count196
+\multirow@dima=\skip53
+\bigstrutjot=\dimen148
+)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.s
 ty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -93,17 +114,17 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2020/03/06 v1.0d TeX engine tests
 ))
-\Gm@cnth=\count196
-\Gm@cntv=\count197
-\c@Gm@tempcnt=\count198
-\Gm@bindingoffset=\dimen148
-\Gm@wd@mp=\dimen149
-\Gm@odd@mp=\dimen150
-\Gm@even@mp=\dimen151
-\Gm@layoutwidth=\dimen152
-\Gm@layoutheight=\dimen153
-\Gm@layouthoffset=\dimen154
-\Gm@layoutvoffset=\dimen155
+\Gm@cnth=\count197
+\Gm@cntv=\count198
+\c@Gm@tempcnt=\count199
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
 \Gm@dimlist=\toks21
 
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.c
@@ -112,20 +133,20 @@ fg))
 ty
 Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
 s
-\f@nch@headwidth=\skip52
-\f@nch@O@elh=\skip53
-\f@nch@O@erh=\skip54
-\f@nch@O@olh=\skip55
-\f@nch@O@orh=\skip56
-\f@nch@O@elf=\skip57
-\f@nch@O@erf=\skip58
-\f@nch@O@olf=\skip59
-\f@nch@O@orf=\skip60
+\f@nch@headwidth=\skip54
+\f@nch@O@elh=\skip55
+\f@nch@O@erh=\skip56
+\f@nch@O@olh=\skip57
+\f@nch@O@orh=\skip58
+\f@nch@O@elf=\skip59
+\f@nch@O@erf=\skip60
+\f@nch@O@olf=\skip61
+\f@nch@O@orf=\skip62
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.s
 ty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count199
+\etb@tempcnta=\count266
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
@@ -134,23 +155,23 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headfont=\toks24
 \thm@notefont=\toks25
 \thm@headpunct=\toks26
-\thm@preskip=\skip61
-\thm@postskip=\skip62
-\thm@headsep=\skip63
+\thm@preskip=\skip63
+\thm@postskip=\skip64
+\thm@headsep=\skip65
 \dth@everypar=\toks27
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count266
-\calc@Bcount=\count267
-\calc@Adimen=\dimen156
-\calc@Bdimen=\dimen157
-\calc@Askip=\skip64
-\calc@Bskip=\skip65
+\calc@Acount=\count267
+\calc@Bcount=\count268
+\calc@Adimen=\dimen157
+\calc@Bdimen=\dimen158
+\calc@Askip=\skip66
+\calc@Bskip=\skip67
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count268
-\calc@Cskip=\skip66
+\calc@Ccount=\count269
+\calc@Cskip=\skip68
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\t
 ikz.sty
@@ -161,8 +182,8 @@ s.sty
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
 util-common.tex
 \pgfutil@everybye=\toks28
-\pgfutil@tempdima=\dimen158
-\pgfutil@tempdimb=\dimen159
+\pgfutil@tempdima=\dimen159
+\pgfutil@tempdimb=\dimen160
 
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgf
 util-common-lists.tex))
@@ -201,8 +222,8 @@ Package graphics Info: Driver file: pdftex.def on input line 105.
 .def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen160
-\Gin@req@width=\dimen161
+\Gin@req@height=\dimen161
+\Gin@req@width=\dimen162
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgf
 sys.sty
@@ -219,26 +240,26 @@ keys.code.tex
 keysfiltered.code.tex
 \pgfkeys@tmptoks=\toks31
 ))
-\pgf@x=\dimen162
-\pgf@y=\dimen163
-\pgf@xa=\dimen164
-\pgf@ya=\dimen165
-\pgf@xb=\dimen166
-\pgf@yb=\dimen167
-\pgf@xc=\dimen168
-\pgf@yc=\dimen169
-\pgf@xd=\dimen170
-\pgf@yd=\dimen171
+\pgf@x=\dimen163
+\pgf@y=\dimen164
+\pgf@xa=\dimen165
+\pgf@ya=\dimen166
+\pgf@xb=\dimen167
+\pgf@yb=\dimen168
+\pgf@xc=\dimen169
+\pgf@yc=\dimen170
+\pgf@xd=\dimen171
+\pgf@yd=\dimen172
 \w@pgf@writea=\write3
 \r@pgf@reada=\read2
-\c@pgf@counta=\count269
-\c@pgf@countb=\count270
-\c@pgf@countc=\count271
-\c@pgf@countd=\count272
+\c@pgf@counta=\count270
+\c@pgf@countb=\count271
+\c@pgf@countc=\count272
+\c@pgf@countd=\count273
 \t@pgf@toka=\toks32
 \t@pgf@tokb=\toks33
 \t@pgf@tokc=\toks34
-\pgf@sys@id@count=\count273
+\pgf@sys@id@count=\count274
 
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
 gf.cfg
@@ -257,8 +278,8 @@ File: pgfsys-common-pdf.def 2020/10/01 v3.1.6a (3.1.6a)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
 gfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfsyssoftpath@smallbuffer@items=\count274
-\pgfsyssoftpath@bigbuffer@items=\count275
+\pgfsyssoftpath@smallbuffer@items=\count275
+\pgfsyssoftpath@bigbuffer@items=\count276
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\p
 gfsysprotocol.code.tex
@@ -294,8 +315,8 @@ alc.code.tex
 til.code.tex)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathp
 arser.code.tex
-\pgfmath@dimen=\dimen172
-\pgfmath@count=\count276
+\pgfmath@dimen=\dimen173
+\pgfmath@count=\count277
 \pgfmath@box=\box50
 \pgfmath@toks=\toks35
 \pgfmath@stack@operand=\toks36
@@ -321,39 +342,39 @@ unctions.misc.code.tex)
 unctions.integerarithmetics.code.tex)))
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathf
 loat.code.tex
-\c@pgfmathroundto@lastzeros=\count277
+\c@pgfmathroundto@lastzeros=\count278
 ))
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.c
 ode.tex)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
 fcorepoints.code.tex
 File: pgfcorepoints.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@picminx=\dimen173
-\pgf@picmaxx=\dimen174
-\pgf@picminy=\dimen175
-\pgf@picmaxy=\dimen176
-\pgf@pathminx=\dimen177
-\pgf@pathmaxx=\dimen178
-\pgf@pathminy=\dimen179
-\pgf@pathmaxy=\dimen180
-\pgf@xx=\dimen181
-\pgf@xy=\dimen182
-\pgf@yx=\dimen183
-\pgf@yy=\dimen184
-\pgf@zx=\dimen185
-\pgf@zy=\dimen186
+\pgf@picminx=\dimen174
+\pgf@picmaxx=\dimen175
+\pgf@picminy=\dimen176
+\pgf@picmaxy=\dimen177
+\pgf@pathminx=\dimen178
+\pgf@pathmaxx=\dimen179
+\pgf@pathminy=\dimen180
+\pgf@pathmaxy=\dimen181
+\pgf@xx=\dimen182
+\pgf@xy=\dimen183
+\pgf@yx=\dimen184
+\pgf@yy=\dimen185
+\pgf@zx=\dimen186
+\pgf@zy=\dimen187
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
 fcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@path@lastx=\dimen187
-\pgf@path@lasty=\dimen188
+\pgf@path@lastx=\dimen188
+\pgf@path@lasty=\dimen189
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
 fcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@shorten@end@additional=\dimen189
-\pgf@shorten@start@additional=\dimen190
+\pgf@shorten@end@additional=\dimen190
+\pgf@shorten@start@additional=\dimen191
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
 fcorescopes.code.tex
@@ -361,19 +382,19 @@ File: pgfcorescopes.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 \pgfpic=\box51
 \pgf@hbox=\box52
 \pgf@layerbox@main=\box53
-\pgf@picture@serial@count=\count278
+\pgf@picture@serial@count=\count279
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
 fcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgflinewidth=\dimen191
+\pgflinewidth=\dimen192
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
 fcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@pt@x=\dimen192
-\pgf@pt@y=\dimen193
-\pgf@pt@temp=\dimen194
+\pgf@pt@x=\dimen193
+\pgf@pt@y=\dimen194
+\pgf@pt@temp=\dimen195
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
 fcorequick.code.tex
@@ -390,14 +411,14 @@ File: pgfcorepathprocessing.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
 fcorearrows.code.tex
 File: pgfcorearrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfarrowsep=\dimen195
+\pgfarrowsep=\dimen196
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
 fcoreshade.code.tex
 File: pgfcoreshade.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@max=\dimen196
-\pgf@sys@shading@range@num=\count279
-\pgf@shadingcount=\count280
+\pgf@max=\dimen197
+\pgf@sys@shading@range@num=\count280
+\pgf@shadingcount=\count281
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pg
 fcoreimage.code.tex
@@ -436,8 +457,8 @@ File: pgfmoduleplot.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\p
 gfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@nodesepstart=\dimen197
-\pgf@nodesepend=\dimen198
+\pgf@nodesepstart=\dimen198
+\pgf@nodesepend=\dimen199
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\p
 gfcomp-version-1-18.sty
@@ -459,8 +480,8 @@ Package: pgffor 2020/10/01 v3.1.6a (3.1.6a)
 
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.
 code.tex)
-\pgffor@iter=\dimen199
-\pgffor@skip=\dimen256
+\pgffor@iter=\dimen256
+\pgffor@skip=\dimen257
 \pgffor@stack=\toks38
 \pgffor@toks=\toks39
 ))
@@ -471,34 +492,34 @@ Package: tikz 2020/10/01 v3.1.6a (3.1.6a)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgf
 libraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgf@plot@mark@count=\count281
-\pgfplotmarksize=\dimen257
+\pgf@plot@mark@count=\count282
+\pgfplotmarksize=\dimen258
 )
-\tikz@lastx=\dimen258
-\tikz@lasty=\dimen259
-\tikz@lastxsaved=\dimen260
-\tikz@lastysaved=\dimen261
-\tikz@lastmovetox=\dimen262
-\tikz@lastmovetoy=\dimen263
-\tikzleveldistance=\dimen264
-\tikzsiblingdistance=\dimen265
+\tikz@lastx=\dimen259
+\tikz@lasty=\dimen260
+\tikz@lastxsaved=\dimen261
+\tikz@lastysaved=\dimen262
+\tikz@lastmovetox=\dimen263
+\tikz@lastmovetoy=\dimen264
+\tikzleveldistance=\dimen265
+\tikzsiblingdistance=\dimen266
 \tikz@figbox=\box56
 \tikz@figbox@bg=\box57
 \tikz@tempbox=\box58
 \tikz@tempbox@bg=\box59
-\tikztreelevel=\count282
-\tikznumberofchildren=\count283
-\tikznumberofcurrentchild=\count284
-\tikz@fig@count=\count285
+\tikztreelevel=\count283
+\tikznumberofchildren=\count284
+\tikznumberofcurrentchild=\count285
+\tikz@fig@count=\count286
 
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmo
 dulematrix.code.tex
 File: pgfmodulematrix.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\pgfmatrixcurrentrow=\count286
-\pgfmatrixcurrentcolumn=\count287
-\pgf@matrix@numberofcolumns=\count288
+\pgfmatrixcurrentrow=\count287
+\pgfmatrixcurrentcolumn=\count288
+\pgf@matrix@numberofcolumns=\count289
 )
-\tikz@expandcount=\count289
+\tikz@expandcount=\count290
 
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
 /tikz/libraries\tikzlibrarytopaths.code.tex
@@ -517,9 +538,9 @@ core.code.tex
 \t@pgfplots@toka=\toks40
 \t@pgfplots@tokb=\toks41
 \t@pgfplots@tokc=\toks42
-\pgfplots@tmpa=\dimen266
-\c@pgfplots@coordindex=\count290
-\c@pgfplots@scanlineindex=\count291
+\pgfplots@tmpa=\dimen267
+\c@pgfplots@coordindex=\count291
+\c@pgfplots@scanlineindex=\count292
 
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfp
 lotssysgeneric.code.tex))
@@ -537,13 +558,13 @@ cture\pgfplotsliststructure.code.tex)
 cture\pgfplotsliststructureext.code.tex)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststru
 cture\pgfplotsarray.code.tex
-\c@pgfplotsarray@tmp=\count292
+\c@pgfplotsarray@tmp=\count293
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststru
 cture\pgfplotsmatrix.code.tex)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/numtable
 \pgfplotstableshared.code.tex
-\c@pgfplotstable@counta=\count293
+\c@pgfplotstable@counta=\count294
 \t@pgfplotstable@a=\toks43
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/liststru
@@ -556,7 +577,7 @@ plotsbinary.data.code.tex))
 plotsutil.verb.code.tex)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\pgf
 librarypgfplots.surfshading.code.tex
-\c@pgfplotslibrarysurf@no=\count294
+\c@pgfplotslibrarysurf@no=\count295
 
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/sys\pgfl
 ibrarypgfplots.surfshading.pgfsys-pdftex.def)))
@@ -588,14 +609,14 @@ ticks.code.tex)
 /tikz/libraries\tikzlibrarydecorations.code.tex
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmo
 duledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen267
-\pgfdecoratedremainingdistance=\dimen268
-\pgfdecoratedinputsegmentcompleteddistance=\dimen269
-\pgfdecoratedinputsegmentremainingdistance=\dimen270
-\pgf@decorate@distancetomove=\dimen271
-\pgf@decorate@repeatstate=\count295
-\pgfdecorationsegmentamplitude=\dimen272
-\pgfdecorationsegmentlength=\dimen273
+\pgfdecoratedcompleteddistance=\dimen268
+\pgfdecoratedremainingdistance=\dimen269
+\pgfdecoratedinputsegmentcompleteddistance=\dimen270
+\pgfdecoratedinputsegmentremainingdistance=\dimen271
+\pgf@decorate@distancetomove=\dimen272
+\pgf@decorate@repeatstate=\count296
+\pgfdecorationsegmentamplitude=\dimen273
+\pgfdecorationsegmentlength=\dimen274
 )
 \tikz@lib@dec@box=\box60
 )
@@ -607,13 +628,13 @@ orations\pgflibrarydecorations.pathmorphing.code.tex))
 /tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/dec
 orations\pgflibrarydecorations.pathreplacing.code.tex))
-\pgfplots@numplots=\count296
-\pgfplots@xmin@reg=\dimen274
-\pgfplots@xmax@reg=\dimen275
-\pgfplots@ymin@reg=\dimen276
-\pgfplots@ymax@reg=\dimen277
-\pgfplots@zmin@reg=\dimen278
-\pgfplots@zmax@reg=\dimen279
+\pgfplots@numplots=\count297
+\pgfplots@xmin@reg=\dimen275
+\pgfplots@xmax@reg=\dimen276
+\pgfplots@ymin@reg=\dimen277
+\pgfplots@ymax@reg=\dimen278
+\pgfplots@zmin@reg=\dimen279
+\pgfplots@zmax@reg=\dimen280
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer
 /tikz/libraries\tikzlibraryplotmarks.code.tex
@@ -629,11 +650,37 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
  (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\c@r@tfl@t=\count297
-\rotFPtop=\skip67
-\rotFPbot=\skip68
+\c@r@tfl@t=\count298
+\rotFPtop=\skip69
+\rotFPbot=\skip70
 \rot@float@box=\box61
 \rot@mess@toks=\toks44
+)
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/stackengine\stacken
+gine.sty
+Package: stackengine 2017/02/13 v4.01\ Stacking text and objects in convenient 
+ways
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/listofitems\listofi
+tems.sty
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/listofitems\listo
+fitems.tex
+\loi_cnt_foreach_nest=\count299
+\loi_nestcnt=\count300
+)
+Package: listofitems 2019/08/21 v1.63 Grab items in lists using user-specified 
+sep char (CT)
+)
+\c@@stackindex=\count301
+\@boxshift=\skip71
+\stack@tmplength=\skip72
+\temp@stkl=\skip73
+\@stackedboxwidth=\skip74
+\@addedbox=\box62
+\@anchorbox=\box63
+\stackedbox=\box64
+\@centerbox=\box65
+\c@ROWcellindex@=\count302
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcolorbox
 .sty
@@ -652,17 +699,17 @@ Package: environ 2014/05/04 v0.3 A new way to define environments
 es.sty
 Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
 ))
-\tcb@titlebox=\box62
-\tcb@upperbox=\box63
-\tcb@lowerbox=\box64
-\tcb@phantombox=\box65
-\c@tcbbreakpart=\count298
-\c@tcblayer=\count299
-\c@tcolorbox@number=\count300
-\tcb@temp=\box66
-\tcb@temp=\box67
-\tcb@temp=\box68
-\tcb@temp=\box69
+\tcb@titlebox=\box66
+\tcb@upperbox=\box67
+\tcb@lowerbox=\box68
+\tcb@phantombox=\box69
+\c@tcbbreakpart=\count303
+\c@tcblayer=\count304
+\c@tcolorbox@number=\count305
+\tcb@temp=\box70
+\tcb@temp=\box71
+\tcb@temp=\box72
+\tcb@temp=\box73
 \tcb@out=\write4
 \tcb@record@out=\write5
 )
@@ -673,62 +720,62 @@ File: tikzlibraryarrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgf
 libraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2020/10/01 v3.1.6a (3.1.6a)
-\arrowsize=\dimen280
+\arrowsize=\dimen281
 ))
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
-\col@sep=\dimen281
-\ar@mcellbox=\box70
-\extrarowheight=\dimen282
+\col@sep=\dimen282
+\ar@mcellbox=\box74
+\extrarowheight=\dimen283
 \NC@list=\toks47
-\extratabsurround=\skip69
-\backup@length=\skip70
-\ar@cellbox=\box71
+\extratabsurround=\skip75
+\backup@length=\skip76
+\ar@cellbox=\box75
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.s
 ty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen283
-\lightrulewidth=\dimen284
-\cmidrulewidth=\dimen285
-\belowrulesep=\dimen286
-\belowbottomsep=\dimen287
-\aboverulesep=\dimen288
-\abovetopsep=\dimen289
-\cmidrulesep=\dimen290
-\cmidrulekern=\dimen291
-\defaultaddspace=\dimen292
-\@cmidla=\count301
-\@cmidlb=\count302
-\@aboverulesep=\dimen293
-\@belowrulesep=\dimen294
-\@thisruleclass=\count303
-\@lastruleclass=\count304
-\@thisrulewidth=\dimen295
+\heavyrulewidth=\dimen284
+\lightrulewidth=\dimen285
+\cmidrulewidth=\dimen286
+\belowrulesep=\dimen287
+\belowbottomsep=\dimen288
+\aboverulesep=\dimen289
+\abovetopsep=\dimen290
+\cmidrulesep=\dimen291
+\cmidrulekern=\dimen292
+\defaultaddspace=\dimen293
+\@cmidla=\count306
+\@cmidlb=\count307
+\@aboverulesep=\dimen294
+\@belowrulesep=\dimen295
+\@thisruleclass=\count308
+\@lastruleclass=\count309
+\@thisrulewidth=\dimen296
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/arydshln\arydshln.s
 ty
 Package: arydshln 2019/02/21 v1.76 
-\dashlinedash=\dimen296
-\dashlinegap=\dimen297
-\adl@box=\box72
-\adl@height=\dimen298
-\adl@heightsave=\dimen299
-\adl@depth=\dimen300
-\adl@depthsave=\dimen301
-\adl@finaldepth=\dimen302
-\adl@columns=\count305
-\adl@ncol=\count306
-\adl@currentcolumn=\count307
-\adl@currentcolumnsave=\count308
-\adl@totalheight=\count309
-\adl@totalheightsave=\count310
-\adl@dash=\count311
-\adl@gap=\count312
-\adl@cla=\count313
-\adl@clb=\count314
+\dashlinedash=\dimen297
+\dashlinegap=\dimen298
+\adl@box=\box76
+\adl@height=\dimen299
+\adl@heightsave=\dimen300
+\adl@depth=\dimen301
+\adl@depthsave=\dimen302
+\adl@finaldepth=\dimen303
+\adl@columns=\count310
+\adl@ncol=\count311
+\adl@currentcolumn=\count312
+\adl@currentcolumnsave=\count313
+\adl@totalheight=\count314
+\adl@totalheightsave=\count315
+\adl@dash=\count316
+\adl@gap=\count317
+\adl@cla=\count318
+\adl@clb=\count319
 \adl@everyvbox=\toks48
-\adl@LTpagetotal=\dimen303
+\adl@LTpagetotal=\dimen304
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tik
 zlibrarypgfplots.fillbetween.code.tex
@@ -738,7 +785,7 @@ ib\tikzlibraryfillbetween.code.tex
 /tikz/libraries\tikzlibraryintersections.code.tex
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgf
 libraryintersections.code.tex
-\pgf@intersect@solutions=\count315
+\pgf@intersect@solutions=\count320
 ))
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/pgfcontr
 ib\tikzlibrarydecorations.softclip.code.tex
@@ -746,38 +793,38 @@ ib\tikzlibrarydecorations.softclip.code.tex
 ib\pgflibraryfillbetween.code.tex)))
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/generic/pgfplots/libs\tik
 zlibrarypgfplots.decorations.softclip.code.tex))
-\dividendlength=\skip71
-\divisorlength=\skip72
-\dividendheight=\skip73
-\divisorheight=\skip74
-\maxheight=\skip75
-\c@example=\count316
-\c@youtry=\count317
-\c@definition=\count318
-\c@theorem=\count319
+\dividendlength=\skip77
+\divisorlength=\skip78
+\dividendheight=\skip79
+\divisorheight=\skip80
+\maxheight=\skip81
+\c@example=\count321
+\c@youtry=\count322
+\c@definition=\count323
+\c@theorem=\count324
 
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend
 -pdftex.def
 File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
-\l__kernel_color_stack_int=\count320
-\l__pdf_internal_box=\box73
+\l__kernel_color_stack_int=\count325
+\l__pdf_internal_box=\box77
 ) ("Algebra 2 Chapter 7 Notes.aux")
 \openout1 = `"Algebra 2 Chapter 7 Notes.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 204.
-LaTeX Font Info:    ... okay on input line 204.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 210.
+LaTeX Font Info:    ... okay on input line 210.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -817,16 +864,16 @@ LaTeX Font Info:    ... okay on input line 204.
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pd
 f.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count321
-\scratchdimen=\dimen304
-\scratchbox=\box74
-\nofMPsegments=\count322
-\nofMParguments=\count323
+\scratchcounter=\count326
+\scratchdimen=\dimen305
+\scratchbox=\box78
+\nofMPsegments=\count327
+\nofMParguments=\count328
 \everyMPshowfont=\toks49
-\MPscratchCnt=\count324
-\MPscratchDim=\dimen305
-\MPnumerator=\count325
-\makeMPintoPDFobject=\count326
+\MPscratchCnt=\count329
+\MPscratchDim=\dimen306
+\MPnumerator=\count330
+\makeMPintoPDFobject=\count331
 \everyMPtoPDFconversion=\toks50
 )
 (C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstop
@@ -839,104 +886,119 @@ Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.17} (current compat level: 1.16).
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 222--223
+Underfull \hbox (badness 10000) in paragraph at lines 228--229
+
+ []
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 249
+.
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 249
+.
+
+(C:\Users\amargraff\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Underfull \hbox (badness 10000) in paragraph at lines 258--259
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 252--253
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 272--273
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 282--283
+Underfull \hbox (badness 10000) in paragraph at lines 288--289
 
  []
 
 [1{C:/Users/amargraff/AppData/Local/MiKTeX/pdftex/config/pdftex.map}
 
 ]
-Overfull \hbox (22.36488pt too wide) in paragraph at lines 354--365
+Overfull \hbox (22.36488pt too wide) in paragraph at lines 360--371
 [][] 
  []
 
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 549--550
+Underfull \hbox (badness 10000) in paragraph at lines 555--557
 
  []
 
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 607--612
+
+Underfull \hbox (badness 10000) in paragraph at lines 558--559
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 667--672
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 633--638
 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 739--741
+Underfull \hbox (badness 10000) in paragraph at lines 693--698
 
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 798--803
+Underfull \hbox (badness 10000) in paragraph at lines 765--767
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 843--845
+Underfull \hbox (badness 10000) in paragraph at lines 824--829
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 888--893
+Underfull \hbox (badness 10000) in paragraph at lines 869--871
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 942--944
+Underfull \hbox (badness 10000) in paragraph at lines 914--919
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 973--978
+Underfull \hbox (badness 10000) in paragraph at lines 968--970
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 1015--1017
+Underfull \hbox (badness 10000) in paragraph at lines 999--1004
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 1073--1074
+Underfull \hbox (badness 10000) in paragraph at lines 1041--1043
+
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1084--1085
+Underfull \hbox (badness 10000) in paragraph at lines 1110--1111
 
  []
 
-[14] [15]
-Underfull \hbox (badness 10000) in paragraph at lines 1167--1168
+[15] [16]
+Underfull \hbox (badness 10000) in paragraph at lines 1193--1194
 
  []
 
-[16] ("Algebra 2 Chapter 7 Notes.aux") ) 
+[17] ("Algebra 2 Chapter 7 Notes.aux") ) 
 Here is how much of TeX's memory you used:
- 27362 strings out of 480236
- 717776 string characters out of 2878657
- 1086696 words of memory out of 3000000
- 43503 multiletter control sequences out of 15000+200000
- 542019 words of font info for 53 fonts, out of 3000000 for 9000
+ 28227 strings out of 480236
+ 728972 string characters out of 2878657
+ 1094273 words of memory out of 3000000
+ 44332 multiletter control sequences out of 15000+200000
+ 545013 words of font info for 67 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,12n,127p,747b,2171s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/amargraff/AppData/Local/Progr
@@ -957,10 +1019,13 @@ fonts/cm/cmr12.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type
 /fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/amargraff/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/amargraff/AppDa
 ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ama
-rgraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on "Algebra 2 Chapter 7 Notes.pdf" (16 pages, 201787 bytes).
+rgraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
+C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmti10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/amsfonts/cm/cmtt10.pfb>
+Output written on "Algebra 2 Chapter 7 Notes.pdf" (17 pages, 230437 bytes).
 PDF statistics:
- 121 PDF objects out of 1000 (max. 8388607)
+ 132 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

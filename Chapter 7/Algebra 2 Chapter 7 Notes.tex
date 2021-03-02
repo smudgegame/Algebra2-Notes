@@ -1,5 +1,7 @@
 \documentclass{report}
 \usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{multirow}
 \usepackage[margin=0.75in]{geometry}
 \usepackage{fancyhdr}
 \usepackage{etoolbox}
@@ -8,11 +10,15 @@
 \usepackage{tikz,pgfplots}
 \usepackage{graphicx}
 \usepackage{rotating}
+\usepackage{stackengine}
 \usepackage{tcolorbox}
 \usetikzlibrary{arrows}
 \usepackage{array,booktabs,arydshln,xcolor}
 \usepgfplotslibrary{fillbetween}
 \pgfplotsset{compat=1.16,width=10cm}
+
+
+
 
 
 %% New colors
@@ -292,7 +298,7 @@
 \end{enumerate}
 \vfill
 \begin{flushright}
-\rotatebox{180}{\color{red}10. $1.5\%$ 11. $6y-8$ 12. $(4y-2)/3$\color{black}   }\\
+\rotatebox{180}{\color{red}10. $1.5\%$ 11. $6y-8$ 12. $(4y+2)/3$\color{black}   }\\
 \vspace{0.5cm}
 \rotatebox{180}{\color{red}1. D \, 2. C\, 3. E\, 4. A\,  5. $x^6$\, 6. $15x^2y$\, 7. $b^4/a^6$\, 8. $36x^5$\,  9. $\$180$ \color{black}}
 \end{flushright}
@@ -311,7 +317,7 @@
 \rhead{Algebra 2: Section  \getcurrentref{chapter}.\getcurrentref{section}}
 \setcounter{section}{0}
  \section{ Exponential Functions, growth and Decay }
- \indent\hfill\small\noindent \textbf{Objective}: Write and evaluate exponential expressions to model ggrowth and decay situations. \normalsize\\
+ \indent\hfill\small\noindent \textbf{Objective}: Write and evaluate exponential expressions to model growth and decay situations. \normalsize\\
  \vspace{-0.5cm}
  \setcounter{example}{0}
  \setcounter{definition}{0}
@@ -341,7 +347,7 @@
 
 
 \begin{definition}
-Functions with a variable exponent is known as an \textbf{exponential function}. The parent exponential function is $f(x)=b^x$, where the \textbf{base} $b$ is a constant and the exponent $x$ is the independent variable.
+Functions with a variable exponent are known as \textbf{exponential functions}. The parent exponential function is $f(x)=b^x$, where the \textbf{base} $b$ is a constant and the exponent $x$ is the independent variable.
 \end{definition}
 
 \Large
@@ -534,63 +540,83 @@ Use a table and graphing calculator to sketch the exponential functions. Tell wh
 \noindent Where $A$ is the final amount, $P$ is the principal (initial amount), $r$ is the rate of increase or decrease, and $t$ is time in compounding periods.
 
 \begin{example}
-(Calculator) Tyler purchased a rare 1959 Gibson Les Paul guitar in 2000 for $\$12,000$. Experts estimate that its value will increase by $14\%$ per year. Use a calculator to graph to find when the value of the guitar will be $60,000$.
+(Calculator) Tyler purchased a rare 1959 Gibson Les Paul guitar in 2000 for $\$12,000$. Experts estimate that its value will increase by $14\%$ per year. Use a calculator to graph to find when the value of the guitar will be $\$60,000$.
 \end{example}
 
 \vfill
 
- \noindent\fbox{\large\textbf{7.1 (day 1) Homework}: page \small } \hfill 
+ \noindent\fbox{\large\textbf{7.1 (day 1) Homework}: page 493 \, 2-5, 7-10 \small } \hfill 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\noindent\Large{\textbf{Exponential Functions (day 2)}}  \indent\hfill\small\noindent \textbf{Objective}: Write and evaluate exponential expressions to model ggrowth and decay situations.\normalsize\\
+\noindent\Large{\textbf{7.1 Exponential Functions (day 2)}}  \\
+\indent\hfill\small\noindent \textbf{Objective}: Write and evaluate exponential expressions to model growth and decay situations.\normalsize\\
+
+\noindent Often we have a need to find when two equations are equal or when a function reaches a specific value. This is where we will use the \texttt{INTERSECT} function in the calculate menu.\\
+
+\begin{tabular}[t]{ll}
+\indent \underline{Step 1:} & Press \tcbox[size=small, on line]{$Y=$} and use \texttt{Y1} for one side of the equation to solve and \texttt{Y2} for the other \\
+&side of the equation.\\
+\indent \underline{Step 2:} &  Press \tcbox[size=small, on line]{GRAPH} and use \tcbox[size=small, on line]{WINDOW} to set the \texttt{Xmin} and \texttt{Xmax} as well as the \\
+&\texttt{Ymin} and \texttt{Ymax} to fit the interestion within the window.\\
+\indent \underline{Step 3:} & Use \tcbox[size=small, on line]{2nd} \tcbox[size=small, on line]{Trace} (the calculate menu) and select option 5. \texttt{insersect}. Press \\
+&\tcbox[size=small, on line]{ENTER} on \texttt{Y1} and use the up arrow to select \texttt{Y2}. Use the arrow keys to guess \\
+&the approximate intersection of the two curves.\\
+\end{tabular}
+
+\vspace{1cm}
+
+\begin{example}
+In 1081, the Australian humpback whale population was 350 and has increased at a rate of about $14\%$ each year since then. Write a function to model population growth. Use a graph to predict when the population will reach $20,000$.
+\end{example}
+\vfill
+
+\begin{example}
+The value of a truck bought new for $\$28,000$ decreases $9.5\%$ each year. Write an exponential function, and graph the function. Use the graph to predict when the value will fall to $\$5,000$.
+\end{example}
+\vfill
 
 \begin{youtry}
+A motor scooter purchased for $\$1,000$ depreciates at an annual rate of $15\%$. Write an exponential function, and graph the function. Use the graph to predict when the value will fall below $\$100$.
 \end{youtry}
-
-\begin{minipage}[t]{0.45\linewidth}
-(a) 
-\end{minipage}
-\hfill
-\begin{minipage}[t]{0.45\linewidth}
-(b) 
-\end{minipage}
 \vfill
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \begin{example}
+The amount of freight transported by rail in the United States was about 580 billion \emph{ton-miles} in 1960 and has been increasing at a rate of $2.32\%$ per year since then.
 \end{example}
 \begin{itemize}
-	\item[(a)] 
-	\vfill
-	\item[(b)] 
-	\vfill
+\item[a.] Write a function representing the amount of freight, in billions of ton-miles, transported annually\\ (let 1960 = year 0).
+\vspace{1.5cm}
+\item[b.] Graph the function.
+\vspace{1.5cm}
+\item[c.] In what year would you predict that the number of ton-miles woud have exceeded or would exceed 1 trillion (1000 billion)?
 \end{itemize}
-
-\begin{example}
-\end{example}
-
-
-\begin{minipage}[t]{0.45\linewidth}
-	\begin{itemize}
-		\item[(a)] 
-		\vspace{1cm}
-		\item[(c)] 
-	\end{itemize}
-\end{minipage}
-\begin{minipage}[t]{0.45\linewidth}
-	\begin{itemize}
-		\item[(b)] 
-		\vspace{1cm}
-		\item[(d)] 
-	\end{itemize}
-\end{minipage}
 \vfill
 
+\begin{youtry}
+A quantity of insulin used to regulate sugar in the bloodstream breaks down by about $5\%$ each minute. A body-weight adjusted does is generally 10 units.
+\end{youtry}
+\begin{itemize}
+\item[a.] Write a function representing the amount of the dose that remains after $t$ minutes.
+\vspace{1.5cm}
+\item[b.] Graph the function.
+\vspace{1.5cm}
+\item[c.] About how much insulin remains after 10 minutes?
+\vspace{1.5cm}
+\item[d.] About how long does it take for half the dose to remain?
+\end{itemize}
+\vfill
 
- \noindent\fbox{\large\textbf{7.1 (day 2) Homework}: page \small } \hfill 
+ \noindent\fbox{\large\textbf{7.1 (day 2) Homework}: page 494 \, 15, 17, 21, 22, 27 \small } \hfill 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
