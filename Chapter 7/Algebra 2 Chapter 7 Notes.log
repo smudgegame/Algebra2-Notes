@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  2 MAR 2021 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  3 MAR 2021 16:27
 entering extended mode
 **"./Algebra 2 Chapter 7 Notes.tex"
 ("Algebra 2 Chapter 7 Notes.tex"
@@ -937,95 +937,97 @@ Underfull \hbox (badness 10000) in paragraph at lines 633--638
 
  []
 
-[6]
-Underfull \hbox (badness 10000) in paragraph at lines 693--698
-
- []
-
-[7]
-Underfull \hbox (badness 10000) in paragraph at lines 765--767
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 913--918
 
  []
 
 [8]
-Underfull \hbox (badness 10000) in paragraph at lines 824--829
+Underfull \hbox (badness 10000) in paragraph at lines 985--987
 
  []
 
 [9]
-Underfull \hbox (badness 10000) in paragraph at lines 869--871
+Underfull \hbox (badness 10000) in paragraph at lines 1044--1049
 
  []
 
 [10]
-Underfull \hbox (badness 10000) in paragraph at lines 914--919
+Underfull \hbox (badness 10000) in paragraph at lines 1089--1091
 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 968--970
+Underfull \hbox (badness 10000) in paragraph at lines 1134--1139
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 999--1004
+Underfull \hbox (badness 10000) in paragraph at lines 1188--1190
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 1041--1043
+Underfull \hbox (badness 10000) in paragraph at lines 1219--1224
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 1099--1100
+Underfull \hbox (badness 10000) in paragraph at lines 1261--1263
+
+ []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 1319--1320
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1110--1111
+Underfull \hbox (badness 10000) in paragraph at lines 1330--1331
 
  []
 
-[15] [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1193--1194
+[16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 1413--1414
 
  []
 
-[17] ("Algebra 2 Chapter 7 Notes.aux") ) 
+[18] ("Algebra 2 Chapter 7 Notes.aux") ) 
 Here is how much of TeX's memory you used:
- 28227 strings out of 480236
- 728972 string characters out of 2878657
+ 28270 strings out of 480236
+ 729640 string characters out of 2878657
  1094273 words of memory out of 3000000
- 44332 multiletter control sequences out of 15000+200000
- 545013 words of font info for 67 fonts, out of 3000000 for 9000
+ 44370 multiletter control sequences out of 15000+200000
+ 548112 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 96i,12n,127p,747b,2171s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 96i,13n,127p,747b,2171s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Users/amargraff/AppData/Local/Progr
 ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/amargraff/AppDat
 a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/ama
 rgraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><
 C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmbx9.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmex10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/amargraff/AppData/Local/Programs
-/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/amargraff/AppData/L
-ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/amargra
-ff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/U
-sers/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr
-10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr12.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type
-1/public/amsfonts/cm/cmr7.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX
-/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/amargraff/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/amargraff/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/ama
-rgraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy9.pfb><
+/cmbx8.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmbx9.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmex10.pfb><C:/Users/amargraff/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/amargraff/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/amargra
+ff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/U
+sers/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmm
+i9.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmr12.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTe
+X/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/amargraff/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/amargraff/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/ama
+rgraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><
 C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmti10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmtt10.pfb>
-Output written on "Algebra 2 Chapter 7 Notes.pdf" (17 pages, 230437 bytes).
+/cmsy8.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy9.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/
+type1/public/amsfonts/cm/cmti10.pfb><C:/Users/amargraff/AppData/Local/Programs/
+MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "Algebra 2 Chapter 7 Notes.pdf" (18 pages, 257031 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
+ 143 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

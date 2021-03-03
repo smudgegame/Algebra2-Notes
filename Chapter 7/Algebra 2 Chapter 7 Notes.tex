@@ -638,46 +638,266 @@ A quantity of insulin used to regulate sugar in the bloodstream breaks down by a
 
 \vspace{-0.5cm}
 
- \begin{example}
-
- \end{example}
-\begin{minipage}[t]{0.45\linewidth}
-	\begin{itemize}
-		\item[(a)] 
-	\end{itemize}
-\end{minipage}
-\begin{minipage}[t]{0.45\linewidth}
-	\begin{itemize}
-		\item[(b)] 
-	\end{itemize}
-\end{minipage}
-
-\vfill
+\begin{definition}
+An \textbf{inverse relation} is a relation that swaps $x$ and $y$ in every ordered pair of a given relation. This is the same as reflecting a graph over the line $y=x$.
+\end{definition}
 
 \begin{example}
-
+Graph the relation and connect the points. Then graph the inverse relation, identify the domain and range of each relation.
 \end{example}
-\begin{minipage}[t]{0.45\linewidth}
-	\begin{itemize}
-		\item[(a)] 
-	\end{itemize}
-\end{minipage}
-\begin{minipage}[t]{0.45\linewidth}
-	\begin{itemize}
-		\item[(b)] 
-	\end{itemize}
-\end{minipage}
+\large
+
+\begin{flushleft}
+\underline{Relation}\\
+\vspace{0.25cm}
+
+Domain:\\
+\vspace{0.25cm}
+
+Range:\\
+\vspace{0.5cm}
+
+\rule{3cm}{0.01cm}\\
+\underline{Inverse Relation}\\
+\vspace{0.25cm}
+
+Domain:\\
+\vspace{0.25cm}
+
+Range:\\
+\end{flushleft}
+\hfill
+\vspace{-6cm}
+\begin{center}
+	\begin{tabular}[t]{|c|c|c|c|c|c|}
+	\hline
+		&&&&&\\
+		$\mathbf{x}$ & 0 & 1 & 2 & 4 &  8 \\
+	\hline
+		&&&&&\\
+		$\mathbf{y}$ & 2 & 4 & 5 & 6 &  7 \\
+	\hline
+	\end{tabular}
+\end{center}
+\hfill
+\vspace{-3.5cm}
+\begin{flushright}
+	\begin{tikzpicture}[>=latex,scale=1]
+		\begin{axis}[
+				    width =7cm,
+			               height=7cm,
+				    xmin=0,xmax=8,
+				    ymin=0,ymax=8,
+				    grid=both,
+				    grid style={line width=.2pt, draw=gray!50},
+				    major grid style={line width=.3pt,draw=gray!75},
+				    axis lines=middle,
+				    minor tick num=1,
+				    enlargelimits={abs=0.5},
+				    axis line style={latex-latex},
+				    ticklabel style={font=\small,fill=white},
+				    xlabel={\,\,$x$},
+				    ylabel={$y$},
+				    xlabel style={below right},
+				    ylabel style={above right},
+				]
+		\end{axis}	
+	\end{tikzpicture}
+\end{flushright}
+
+\normalsize
 \vfill
+
+\begin{youtry}
+Graph the relation and connect the points. Then graph the inverse relation, identify the domain and range of each relation.
+\end{youtry}
+\large
+
+\begin{flushleft}
+\underline{Relation}\\
+\vspace{0.25cm}
+
+Domain:\\
+\vspace{0.25cm}
+
+Range:\\
+\vspace{0.5cm}
+
+\rule{3cm}{0.01cm}\\
+\underline{Inverse Relation}\\
+\vspace{0.25cm}
+
+Domain:\\
+\vspace{0.25cm}
+
+Range:\\
+\end{flushleft}
+\hfill
+\vspace{-6cm}
+\begin{center}
+	\begin{tabular}[t]{|c|c|c|c|c|c|}
+	\hline
+		&&&&&\\
+		$\mathbf{x}$ & 1 & 3 & 4 & 5 & 6 \\
+	\hline
+		&&&&&\\
+		$\mathbf{y}$ & 0 & 1 & 2 & 3 & 5 \\
+	\hline
+	\end{tabular}
+\end{center}
+\hfill
+\vspace{-3.5cm}
+\begin{flushright}
+	\begin{tikzpicture}[>=latex,scale=1]
+		\begin{axis}[
+				    width =7cm,
+			               height=7cm,
+				    xmin=0,xmax=8,
+				    ymin=0,ymax=8,
+				    grid=both,
+				    grid style={line width=.2pt, draw=gray!50},
+				    major grid style={line width=.3pt,draw=gray!75},
+				    axis lines=middle,
+				    minor tick num=1,
+				    enlargelimits={abs=0.5},
+				    axis line style={latex-latex},
+				    ticklabel style={font=\small,fill=white},
+				    xlabel={\,\,$x$},
+				    ylabel={$y$},
+				    xlabel style={below right},
+				    ylabel style={above right},
+				]
+		\end{axis}	
+	\end{tikzpicture}
+\end{flushright}
+
+\normalsize
+\vfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{definition}
+When a relation is also a function, you can write the inverse of the function $f(x)$ as $\mathbf{f^{-1}(x)}$. This notation does \underline{not} indicate a reciprocal. Function that undo each other are \textbf{inverse function}.
+\end{definition}
+
+\large
+\begin{center}
+	\begin{tabular}[t]{ccccc}
+		\color{blue}\textbf{Input}\color{black}  & $\longrightarrow$ & Function & $\longrightarrow$ & \color{red}\textbf{Output}\color{black} \\
+		\color{blue}\textbf{3}\color{black}        & & $\mathbf{f(x)=x+6}$ & & \color{red}\textbf{9}\color{black}\\
+		&&&&\\
+		\color{red}\textbf{Input}\color{black}  & $\longrightarrow$ & Inverse Function & $\longrightarrow$ & \color{blue}\textbf{Output}\color{black} \\
+		\color{red}\textbf{9}\color{black} & & $\mathbf{f^{-1}(x) = x - 6}$ & & \color{blue}\textbf{3}\color{black}\\
+	\end{tabular}
+
+\end{center}
+\normalsize
+
+%
 
 \begin{example}
-
+Use inverse operations to write the inverse of the following functions.
 \end{example}
 
+\begin{minipage}[t]{0.45\linewidth}
+(a) $f(x)=\displaystyle\frac{x}{3}$
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) $g(x)=x-\displaystyle\frac{2}{3}$
+\end{minipage}
 \vfill
 
+%
+
+\begin{youtry}
+Use inverse operations to write the inverse of the following functions.
+\end{youtry}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) $f(x)=-5x$
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) $g(x)=x+5$
+\end{minipage}
+\vfill
+
+%
+
+\begin{example}
+Write and graph the inverse of each function.
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) $f(x)=3x+6$
+
+\vspace{3cm}
+
+	\begin{tikzpicture}[>=latex,scale=1]
+		\begin{axis}[
+				    width =8cm,
+			               height=8cm,
+				    xmin=-6,xmax=6,
+				    ymin=-6,ymax=6,
+				    grid=both,
+				    grid style={line width=.2pt, draw=gray!50},
+				    major grid style={line width=.3pt,draw=gray!75},
+				    axis lines=middle,
+				    minor tick num=1,
+				    enlargelimits={abs=0.5},
+				    axis line style={latex-latex},
+				    ticklabel style={font=\small,fill=white},
+				    xlabel={\,\,$x$},
+				    ylabel={$y$},
+				    xlabel style={below right},
+				    ylabel style={above right},
+				]
+		\end{axis}	
+	\end{tikzpicture}
 
 
- \noindent\fbox{\large\textbf{7.2 Homework (day 1)}: page\small }
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) $g(x)=\displaystyle\frac{2}{3}x+2$
+
+\vspace{3cm}
+
+
+	\begin{tikzpicture}[>=latex,scale=1]
+		\begin{axis}[
+				    width =8cm,
+			               height=8cm,
+				    xmin=-6,xmax=6,
+				    ymin=-6,ymax=6,
+				    grid=both,
+				    grid style={line width=.2pt, draw=gray!50},
+				    major grid style={line width=.3pt,draw=gray!75},
+				    axis lines=middle,
+				    minor tick num=1,
+				    enlargelimits={abs=0.5},
+				    axis line style={latex-latex},
+				    ticklabel style={font=\small,fill=white},
+				    xlabel={\,\,$x$},
+				    ylabel={$y$},
+				    xlabel style={below right},
+				    ylabel style={above right},
+				]
+		\end{axis}	
+	\end{tikzpicture}
+\end{minipage}
+
+
+
+\vfill
+\noindent\fbox{\large\textbf{7.2 Homework (day 1)}: page 501 \, 2-16 all\small }
+ 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \newpage
