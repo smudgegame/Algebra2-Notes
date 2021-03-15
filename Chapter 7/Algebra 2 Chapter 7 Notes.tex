@@ -13,6 +13,7 @@
 \usepackage{stackengine}
 \usepackage{tcolorbox}
 \usetikzlibrary{arrows}
+\usepackage{array,multirow}
 \usepackage{array,booktabs,arydshln,xcolor}
 \usepgfplotslibrary{fillbetween}
 \pgfplotsset{compat=1.16,width=10cm}
@@ -376,7 +377,7 @@ Functions with a variable exponent are known as \textbf{exponential functions}. 
 					    width =8cm,
 				               height=8cm,
 					    xmin=-6,xmax=4,
-					    ymin=-6,ymax=4,
+					    ymin=-2,ymax=8,
 					    grid=both,
 					    grid style={line width=.2pt, draw=gray!50},
 					    major grid style={line width=.3pt,draw=gray!75},
@@ -782,7 +783,7 @@ Range:\\
 
 
 \begin{definition}
-When a relation is also a function, you can write the inverse of the function $f(x)$ as $\mathbf{f^{-1}(x)}$. This notation does \underline{not} indicate a reciprocal. Function that undo each other are \textbf{inverse function}.
+When a relation is also a function, you can write the inverse of the function $f(x)$ as $\mathbf{f^{-1}(x)}$. This notation does \underline{not} indicate a reciprocal. Functions that \emph{undo} each other are \textbf{inverse functions}.
 \end{definition}
 
 \large
@@ -904,6 +905,176 @@ Write and graph the inverse of each function.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\noindent\Large{\textbf{7.2 Inverses of Relations and Functions (day 2)}}  \\
+\indent\hfill\small\noindent \textbf{Objective}: Find the inverses of functions.\normalsize\\
+
+\begin{example}
+Write and graph the inverse of each function.
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) $f(x)=\displaystyle\frac{3}{5}x-4$
+
+\vspace{3cm}
+
+	\begin{tikzpicture}[>=latex,scale=1]
+		\begin{axis}[
+				    width =8cm,
+			               height=8cm,
+				    xmin=-6,xmax=6,
+				    ymin=-6,ymax=6,
+				    grid=both,
+				    grid style={line width=.2pt, draw=gray!50},
+				    major grid style={line width=.3pt,draw=gray!75},
+				    axis lines=middle,
+				    minor tick num=1,
+				    enlargelimits={abs=0.5},
+				    axis line style={latex-latex},
+				    ticklabel style={font=\small,fill=white},
+				    xlabel={\,\,$x$},
+				    ylabel={$y$},
+				    xlabel style={below right},
+				    ylabel style={above right},
+				]
+		\end{axis}	
+	\end{tikzpicture}
+
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) $g(x)=\displaystyle\frac{3}{4}x+3$
+
+\vspace{3cm}
+
+
+	\begin{tikzpicture}[>=latex,scale=1]
+		\begin{axis}[
+				    width =8cm,
+			               height=8cm,
+				    xmin=-6,xmax=6,
+				    ymin=-6,ymax=6,
+				    grid=both,
+				    grid style={line width=.2pt, draw=gray!50},
+				    major grid style={line width=.3pt,draw=gray!75},
+				    axis lines=middle,
+				    minor tick num=1,
+				    enlargelimits={abs=0.5},
+				    axis line style={latex-latex},
+				    ticklabel style={font=\small,fill=white},
+				    xlabel={\,\,$x$},
+				    ylabel={$y$},
+				    xlabel style={below right},
+				    ylabel style={above right},
+				]
+		\end{axis}	
+	\end{tikzpicture}
+\end{minipage}
+
+
+\begin{example}
+A clerk needs to price a digital camera returned by a customer. THe customer paid a total of $\$103.14$, which included a gift-wrapping charge of $\$3$ and $8\%$ sales tax. What price should the clerk mark on the tag?
+\end{example}
+
+\vfill
+
+\begin{example}
+To make tea, use $\displaystyle \frac{1}{6}$ teaspoon of tea  per ounce of water plus a teaspoon for the pot. Use the inverse to find the number of ounces of water needed if 7 teaspoons of tea are used.
+\end{example}
+
+\vfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{example}
+\noindent Tell whether each statement is sometimes, always, or never true.\\
+\end{example}
+
+The inverse of an ordered pair on a graph is its reflection over the line $y=x$\\
+
+The inverse of a llinear function is a linear function.\\
+
+The inverse of a line with positive slope is a line with negative slope.\\
+
+The inverse of a line with slope greater than 1 is a line with slope less than one.\\
+
+The inverse of the inverse of a point $(x,y)$ is the original point.\\
+
+\vspace{1cm}
+
+\begin{example}
+\noindent What is the inverse of $f(x)=3$ (Hint: Write this function as $y=0x+3$.) Is the inverse a function? Explain.\\
+\end{example}
+\vfill
+
+
+\begin{example}
+State whether the inverse is a function.
+\end{example}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) \begin{center}
+	\begin{tabular}[t]{|c|c|c|c|c|c|}
+	\hline
+		&&&&&\\
+		$\mathbf{x}$ & 1 & 3 & 4 & 5 & 6 \\
+	\hline
+		&&&&&\\
+		$\mathbf{y}$ & 5 & 1 & 5 & 10 & 17 \\
+	\hline
+	\end{tabular}
+\end{center}
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) \\
+
+	 \begin{tikzpicture}[>=latex,scale=1]
+			\begin{axis}[
+					    width =8cm,
+				               height=8cm,
+					    xmin=-6,xmax=4,
+					    ymin=-6,ymax=4,
+					    grid=both,
+					    grid style={line width=.2pt, draw=gray!50},
+					    major grid style={line width=.3pt,draw=gray!75},
+					    axis lines=middle,
+					    minor tick num=1,
+					    enlargelimits={abs=0.5},
+					    axis line style={latex-latex},
+					    ticklabel style={font=\small,fill=white},
+					    xlabel={\,\,$x$},
+					    ylabel={$y$},
+					    xlabel style={below right},
+					    ylabel style={above right},
+					]
+					\addplot[domain=-6:6, blue, ultra thick, smooth] {x^3-2*x^2};
+			\end{axis}	
+	\end{tikzpicture}
+\end{minipage}
+\vfill
+
+\begin{minipage}[t]{0.45\linewidth}
+(c) $(1,2), (2,5), (3, 8), (4, 11)$
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(d) $f(x)=x^2+2x-3$
+
+\end{minipage}
+\vfill
+
+\noindent\fbox{\large\textbf{7.2 Homework (day 2)}: page 501 \, 17-28 all\small }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%   Section 7.3   %%%%%%%%
@@ -916,64 +1087,213 @@ Write and graph the inverse of each function.
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
-\hspace{-0.5cm}\begin{minipage}[t]{0.45\linewidth}
-	 \begin{example}
-
-	 \end{example}
-	 \begin{itemize}
-	 	\item[(a)] 
-	 \end{itemize}
+ \begin{definition}
+ A \textbf{logarithim} is the exponent to which a specified base is raised to obtain a given value.  
+ \end{definition}
+ 
+ \vspace{-0.5cm}
+ 
+ \Large \[\mathbf{\color{green}b^{\color{red}x} \color{black}=\color{blue} \qquad  \color{purple}\log_{\color{green}b}\color{blue} a \color{black} = \color{red} x }\]\normalsize
+ 
+ \begin{example}
+Write each exponential equation in logarithmic form.
+ \end{example}
+	 
+\begin{minipage}[t]{0.45\linewidth}
+ 	\begin{tabular}[t]{c|c|c|}
+ 	\cline{2-3}
+ 	& \textbf{Exponential} & \textbf{Logarithmic}\\
+ 	& \textbf{Equation} & \textbf{Form}\\
+ 	\cline{2-3}
+ 	&&\\
+ 	(a) & $2^6=64$ & $\log_2 64 = \rule{1cm}{0.01cm}$\\
+ 	\cline{2-3}
+ 	&&\\
+ 	(b) & $4^1=4$ & $\log_4 4 = \rule{1cm}{0.01cm}$ \\
+ 	\cline{2-3}	 
+ 	&&\\
+ 	(c) & $5^0=1$ & $\log_5 1 = \rule{1cm}{0.01cm}$ \\
+ 	\cline{2-3}
+ 	&&\\
+ 	(d) & $5^{-2}=0.04$ & $\log_5 0.04 = \rule{1cm}{0.01cm}$ \\
+ 	\cline{2-3}
+ 	&&\\
+ 	(e) & $3^x=81$ & $\log_3 81 = \rule{1cm}{0.01cm}$ \\	
+ 	\cline{2-3}
+ 	\end{tabular}
 \end{minipage}
 \hspace{1.25cm}
  \begin{minipage}[t]{0.45\linewidth}
- 	 \begin{youtry}
-
- 	 \end{youtry}
+ 	\vspace{0.5cm}
 	 \begin{itemize}
-	 	\item[(b)]
+	 	\item[(f)] $9^2=81$\\
+	 	\vspace{0.5cm}
+	 	\item[(g)] $3^3=27$ \\
+		\vspace{0.5cm}
+	 	\item[(h)] $x^0=1 \,\, (x\neq 0)$ \\
+	 	\vspace{0.5cm}
 	 \end{itemize}
 \end{minipage}
- \vfill
- \begin{example}
 
- \end{example}
- 
-\begin{minipage}[t]{0.45\linewidth}
-(a) 
-\end{minipage}
- \hfill
- \begin{minipage}[t]{0.45\linewidth}
-(b) 
-\end{minipage}
 \vfill
- \vfill
- 
- \begin{example}
 
- \end{example}
-\begin{minipage}[t]{0.45\linewidth}
-(a) 
-\end{minipage}
- \hfill
-\begin{minipage}[t]{0.45\linewidth}
-(b) 
-\end{minipage}
-\vfill
 \begin{example}
-
+Write each logarithmic equation in exponential form.
 \end{example}
+ 
+\begin{minipage}[t]{0.45\linewidth}
+ 	\begin{tabular}[t]{c|c|c|}
+ 	\cline{2-3}
+ 	& \textbf{Logarithmic } & \textbf{Exponential}\\
+ 	& \textbf{Form} & \textbf{Equation}\\
+ 	\cline{2-3}
+ 	&&\\
+ 	(a) &$\log_10 100 = 2$ &  $10^2=$ \rule{1cm}{0.01cm}\\
+ 	\cline{2-3}
+ 	&&\\
+ 	(b) &$\log_7 49 = 2  $ & $7^2=\rule{1cm}{0.01cm}$ \\
+ 	\cline{2-3}	 
+ 	&&\\
+ 	(c) & $\log_8 0.125= -1 $ & $8^{-1}=\rule{1cm}{0.01cm}$ \\
+ 	\cline{2-3}
+ 	&&\\
+ 	(d) & $\log_5 5 = 1$ & $5^{1}=\rule{1cm}{0.01cm}$ \\
+ 	\cline{2-3}
+ 	&&\\
+ 	(e) & $\log_12  1 = 0 $ & $12^0=\rule{1cm}{0.01cm}$ \\	
+ 	\cline{2-3}
+ 	\end{tabular}
+\end{minipage}
+\hspace{1.25cm}
+ \begin{minipage}[t]{0.45\linewidth}
+ 	\vspace{0.5cm}
+	 \begin{itemize}
+	 	\item[(f)] $\log_{10} 10=1$\\
+	 	\vspace{0.5cm}
+	 	\item[(g)] $\log_{12} 144=2$ \\
+		\vspace{0.5cm}
+	 	\item[(h)] $\log_{\frac{1}{2}}8 = -3$ \\
+	 	\vspace{0.5cm}
+	 \end{itemize}
+\end{minipage}
 
-\begin{minipage}[t]{0.45\linewidth}
-(a) 
-\end{minipage}
- \hfill
-\begin{minipage}[t]{0.45\linewidth}
-(b) 
-\end{minipage}
 \vfill
 
+\begin{center}
+	\begin{tabular}[t]{|c|c|c|}
+		\hline
+		\multicolumn{3}{|c|}{}\\
+		\multicolumn{3}{|c|}{\large\textbf{Special Properties of Logarithms}}\\
+		\multicolumn{3}{|c|}{\small for any base $b$ such that $b>0$ and $b\neq 1$\normalsize}\\
+		\hline
+		&&\\
+		\textbf{Logarithmic Form} & \textbf{Exponential Form} & \textbf{example}\\
+		\hline
+		&&\\
+		$\log_bb=1$ & $b^1=b$ & $\log_{10}10=1$ and $10^1=10$\\
+		\hline
+		&&\\
+		$\log_b1=0$ & $b^0=1$ & $\log_{10}{1}=0$ and $10^0=1$\\
+		\hline 
+	 \end{tabular}
+\end{center}
+
+\vfill
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
- \noindent\fbox{\large\textbf{7.3 (day 1) Homework}: page  \small }
+ \begin{definition}
+ A logarithm with base 10 is called a \textbf{common logarithm}. If no base is written the base is assumed to be 10, $\log 5 =\log_{10}5$.
+ \end{definition}
+ 
+ \vspace{1cm}
+ 
+ \begin{example}
+Use mental math to evaluate the following logarithms.
+ \end{example}
+ 
+\begin{minipage}[t]{0.18\linewidth}
+(a)  $\log1000$
+\end{minipage}
+ \hfill
+\begin{minipage}[t]{0.18\linewidth}
+(b) $\log_4\displaystyle\frac{1}{4}$
+\end{minipage}
+ \hfill
+\begin{minipage}[t]{0.18\linewidth}
+(c) $\log0.00001$
+\end{minipage}
+ \hfill
+\begin{minipage}[t]{0.18\linewidth}
+(d) $\log_{25}0.04$
+\end{minipage}
+ \hfill
+ \begin{minipage}[t]{0.18\linewidth}
+(e) $\log_28$
+\end{minipage}
+ \hfill
+
+\vfill
+
+\begin{youtry}
+Rewrite each equation in exponential form.
+\end{youtry}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) $\log_636=2$\\
+
+\vspace{3cm}
+
+(c) $\log_{14}\displaystyle\frac{1}{196}=-2$\\
+
+\vspace{3cm}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) $\log_{289}17=-2$\\
+
+\vspace{3cm}
+
+(d) $\log_381=4$\\
+
+\vspace{3cm}
+\end{minipage}
+
+
+
+\begin{youtry}
+Rewrite each equation in logarithmic form.
+\end{youtry}
+
+\begin{minipage}[t]{0.45\linewidth}
+(a) $64^{\frac{1}{2}}=8$\\
+
+\vspace{3cm}
+
+(c) $9^{-2}=\displaystyle\frac{1}{81}$\\
+
+\vspace{3cm}
+
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+(b) $12^2=144$\\
+
+\vspace{3cm}
+
+(d) $\bigg{(}\displaystyle\frac{1}{12}\bigg{)}^2=\frac{1}{144}$\\
+
+\vspace{3cm}
+\end{minipage}
+
+
+ 
+ \noindent\fbox{\large\textbf{7.3 (day 1) Homework}: page 509 1-13 all, 17-27 odds Adv. 40, 41, 45  \small }
  
  
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
