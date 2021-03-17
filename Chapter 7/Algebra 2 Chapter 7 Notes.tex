@@ -973,7 +973,7 @@ Write and graph the inverse of each function.
 
 
 \begin{example}
-A clerk needs to price a digital camera returned by a customer. THe customer paid a total of $\$103.14$, which included a gift-wrapping charge of $\$3$ and $8\%$ sales tax. What price should the clerk mark on the tag?
+A clerk needs to price a digital camera returned by a customer. The customer paid a total of $\$103.14$, which included a gift-wrapping charge of $\$3$ and $8\%$ sales tax. What price should the clerk mark on the tag?
 \end{example}
 
 \vfill
@@ -1302,51 +1302,327 @@ Rewrite each equation in logarithmic form.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \noindent\Large{\textbf{7.3 (day 2)}} 
   \indent\hfill\small\noindent \textbf{Objective}: Write, evaluate, and graph logarithmic functions.  \normalsize\\
 
  
- \begin{youtry}
-
- \end{youtry}
+ \begin{definition}
+ Logarithms are inverses of exponentials, the inverse of an exponential is a function and is called a \textbf{logarithmic function}.
+ \end{definition}
  
+ \begin{example}
+Use the given $x$-values to graph each function. Then graph its inverse. Describe the domain and range for each function.
+ \end{example}
+ 
+\begin{minipage}[t]{0.05\linewidth}
+\vspace{-6.5cm}
+ (a)     
+\end{minipage}
 \begin{minipage}[t]{0.45\linewidth}
-(a) 
+\vspace{-6.5cm}
+	 \begin{flushleft}
+		\begin{tabular}[t]{|c|c|c|c|c|c|}
+		\hline
+			&&&&&\\
+			$\mathbf{x}$ & -2 & -1 & 0 & 1 & 2 \\
+		\hline
+			&&&&&\\
+			$\mathbf{f(x)=2^x}$ &  &  &  &  &  \\
+		\hline
+		\end{tabular}
+	\end{flushleft}
+	\begin{flushleft}
+		\begin{tabular}[t]{|c|c|c|c|c|c|}
+		\hline
+			&&&&&\\
+			$\mathbf{x}$ & \,\,\,\,\,   & \,\,\,\,\,  & \,\,\,\,\,   & \,\,\,\,\,   & \,\,\,\,\,   \\
+		\hline
+			&&&&&\\
+			$\mathbf{f^{-1}(x)=\log_2 x}$ &  &  &  &  &  \\
+		\hline
+		\end{tabular}
+	\end{flushleft}
+	
+	\vspace{0.5cm}
+		
+	\textbf{Domain:}\\
+	
+	\vspace{0.5cm}
+	
+	\textbf{Range:}\\
 \end{minipage}
  \hfill
  \begin{minipage}[t]{0.45\linewidth}
-(b) 
+	\begin{tikzpicture}[>=latex,scale=1]
+		\begin{axis}[
+				    width =8cm,
+			               height=8cm,
+				    xmin=-6,xmax=6,
+				    ymin=-6,ymax=6,
+				    grid=both,
+				    grid style={line width=.2pt, draw=gray!50},
+				    major grid style={line width=.3pt,draw=gray!75},
+				    axis lines=middle,
+				    minor tick num=1,
+				    enlargelimits={abs=0.5},
+				    axis line style={latex-latex},
+				    ticklabel style={font=\small,fill=white},
+				    xlabel={\,\,$x$},
+				    ylabel={$y$},
+				    xlabel style={below right},
+				    ylabel style={above right},
+				]
+		\end{axis}	
+	\end{tikzpicture}
 \end{minipage}
-\vfill
-\vfill
- 
- \begin{example}
 
- \end{example}
+ 
+\begin{minipage}[t]{0.05\linewidth}
+\vspace{-6.5cm}
+ (b)     
+\end{minipage}
 \begin{minipage}[t]{0.45\linewidth}
-(a) 
+\vspace{-6.5cm}
+	 \begin{flushleft}
+		\begin{tabular}[t]{|c|c|c|c|c|c|}
+		\hline
+			&&&&&\\
+			$\mathbf{x}$ & -2 & -1 & 0 & 1 & 2 \\
+		\hline
+			&&&&&\\
+			$\mathbf{f(x)=\displaystyle\bigg{(}\frac{1}{2}\bigg{)}^x}$ &  &  &  &  &  \\
+		\hline
+		\end{tabular}
+	\end{flushleft}
+	\begin{flushleft}
+		\begin{tabular}[t]{|c|c|c|c|c|c|}
+		\hline
+			&&&&&\\
+			$\mathbf{x}$ & \,\,\,\,\,   & \,\,\,\,\,  & \,\,\,\,\,   & \,\,\,\,\,   & \,\,\,\,\,   \\
+		\hline
+			&&&&&\\
+			$\mathbf{f^{-1}(x)=\log_\frac{1}{2} x}$ &  &  &  &  &  \\
+		\hline
+		\end{tabular}
+	\end{flushleft}
+	
+	\vspace{0.5cm}
+		
+	\textbf{Domain:}\\
+	
+	\vspace{0.5cm}
+	
+	\textbf{Range:}\\
 \end{minipage}
  \hfill
-\begin{minipage}[t]{0.45\linewidth}
-
-(b)
+ \begin{minipage}[t]{0.45\linewidth}
+	\begin{tikzpicture}[>=latex,scale=1]
+		\begin{axis}[
+				    width =8cm,
+			               height=8cm,
+				    xmin=-6,xmax=6,
+				    ymin=-6,ymax=6,
+				    grid=both,
+				    grid style={line width=.2pt, draw=gray!50},
+				    major grid style={line width=.3pt,draw=gray!75},
+				    axis lines=middle,
+				    minor tick num=1,
+				    enlargelimits={abs=0.5},
+				    axis line style={latex-latex},
+				    ticklabel style={font=\small,fill=white},
+				    xlabel={\,\,$x$},
+				    ylabel={$y$},
+				    xlabel style={below right},
+				    ylabel style={above right},
+				]
+		\end{axis}	
+	\end{tikzpicture}
 \end{minipage}
-\vfill
 
 \begin{example}
+The \textbf{pH scale} is a logarithmic scale. When given the number of hydrogen ions ($\text{H}^+$) pH is measured as
+\[\text{pH}=-\log\big{(}\text{H}^+\big{)}\]
+The hydrogen ion concentration of rain water in each state is given in the table below. Calculate the pH of the rain water for each state.
 \end{example}
 
-\begin{minipage}[t]{0.45\linewidth}
-(a) 
-\end{minipage}
- \hfill
-\begin{minipage}[t]{0.45\linewidth}
-(b) 
-\end{minipage}
+\begin{tabular}[t]{|c|c|c|}
+\hline
+&&\\
+\textbf{State}&$\mathbf{\text{H}^+}$  \textbf{(mol/L)} & \textbf{pH} \,\,\,\,\,\\
+\hline
+North Dakota & 0.0000009 & \\
+\hline
+California & 0.0000032 & \\
+\hline
+Ohio & 0.0000629 &\\
+\hline
+New Jersey & 0.0000316 & \\
+\hline
+Texas & 0.0000192 &\\
+\hline
+\end{tabular}
 \vfill
 
+
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
- \noindent\fbox{\large\textbf{7.3 (day 2) Homework}: page  \small }
+ 
+ 
+ \begin{example}
+Use the given $x$-values to graph each function. Then graph its inverse. Describe the domain and range for each function.
+ \end{example}
+ 
+ \begin{minipage}[t]{0.05\linewidth}
+\vspace{-6.5cm}
+ (a)     
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+\vspace{-6.5cm}
+	 \begin{flushleft}
+		\begin{tabular}[t]{|c|c|c|c|c|c|}
+		\hline
+			&&&&&\\
+			$\mathbf{x}$ & -2 & -1 & 0 & 1 & 2 \\
+		\hline
+			&&&&&\\
+			$\mathbf{f(x)=3^x}$ &  &  &  &  &  \\
+		\hline
+		\end{tabular}
+	\end{flushleft}
+	\begin{flushleft}
+		\begin{tabular}[t]{|c|c|c|c|c|c|}
+		\hline
+			&&&&&\\
+			$\mathbf{x}$ & \,\,\,\,\,   & \,\,\,\,\,  & \,\,\,\,\,   & \,\,\,\,\,   & \,\,\,\,\,   \\
+		\hline
+			&&&&&\\
+			$\mathbf{f^{-1}(x)=\log_3 x}$ &  &  &  &  &  \\
+		\hline
+		\end{tabular}
+	\end{flushleft}
+	
+	\vspace{0.5cm}
+		
+	\textbf{Domain:}\\
+	
+	\vspace{0.5cm}
+	
+	\textbf{Range:}\\
+\end{minipage}
+ \hfill
+ \begin{minipage}[t]{0.45\linewidth}
+	\begin{tikzpicture}[>=latex,scale=1]
+		\begin{axis}[
+				    width =8cm,
+			               height=8cm,
+				    xmin=-6,xmax=6,
+				    ymin=-6,ymax=6,
+				    grid=both,
+				    grid style={line width=.2pt, draw=gray!50},
+				    major grid style={line width=.3pt,draw=gray!75},
+				    axis lines=middle,
+				    minor tick num=1,
+				    enlargelimits={abs=0.5},
+				    axis line style={latex-latex},
+				    ticklabel style={font=\small,fill=white},
+				    xlabel={\,\,$x$},
+				    ylabel={$y$},
+				    xlabel style={below right},
+				    ylabel style={above right},
+				]
+		\end{axis}	
+	\end{tikzpicture}
+\end{minipage}
+
+ 
+\begin{minipage}[t]{0.05\linewidth}
+\vspace{-6.5cm}
+ (b)     
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+\vspace{-6.5cm}
+	 \begin{flushleft}
+		\begin{tabular}[t]{|c|c|c|c|c|c|}
+		\hline
+			&&&&&\\
+			$\mathbf{x}$ & -2 & -1 & 0 & 1 & 2 \\
+		\hline
+			&&&&&\\
+			$\mathbf{f(x)=\displaystyle\bigg{(}\frac{1}{3}\bigg{)}^x}$ &  &  &  &  &  \\
+		\hline
+		\end{tabular}
+	\end{flushleft}
+	\begin{flushleft}
+		\begin{tabular}[t]{|c|c|c|c|c|c|}
+		\hline
+			&&&&&\\
+			$\mathbf{x}$ & \,\,\,\,\,   & \,\,\,\,\,  & \,\,\,\,\,   & \,\,\,\,\,   & \,\,\,\,\,   \\
+		\hline
+			&&&&&\\
+			$\mathbf{f^{-1}(x)=\log_\frac{1}{3} x}$ &  &  &  &  &  \\
+		\hline
+		\end{tabular}
+	\end{flushleft}
+	
+	\vspace{0.5cm}
+		
+	\textbf{Domain:}\\
+	
+	\vspace{0.5cm}
+	
+	\textbf{Range:}\\
+\end{minipage}
+ \hfill
+ \begin{minipage}[t]{0.45\linewidth}
+	\begin{tikzpicture}[>=latex,scale=1]
+		\begin{axis}[
+				    width =8cm,
+			               height=8cm,
+				    xmin=-6,xmax=6,
+				    ymin=-6,ymax=6,
+				    grid=both,
+				    grid style={line width=.2pt, draw=gray!50},
+				    major grid style={line width=.3pt,draw=gray!75},
+				    axis lines=middle,
+				    minor tick num=1,
+				    enlargelimits={abs=0.5},
+				    axis line style={latex-latex},
+				    ticklabel style={font=\small,fill=white},
+				    xlabel={\,\,$x$},
+				    ylabel={$y$},
+				    xlabel style={below right},
+				    ylabel style={above right},
+				]
+		\end{axis}	
+	\end{tikzpicture}
+\end{minipage}
+
+\begin{example}
+The \textbf{Richter scale} is a logarithmic scale used to measure the ``size'' of an earthquake. The relative magnitude of an earthquake can be calculated using,
+\[M_B-M_A=\log \displaystyle\bigg{(}\frac{I_B}{I_A}\bigg{)},\]
+where $M$ is the \textbf{magnitude} of the earthquake, I is the \textbf{intensity}, and $A$ and $B$ are two measured earthquakes.\\
+
+\noindent Suppose the magnitue, $M_A$, of earthquake $A$ is measured as a 7 on the Richter scale. We also know that earthquake $B$ is three times more intense, $I_B=3I_A$. Find the value of earthquake $B$ on the Richter scale. 
+\end{example}
+
+
+\vfill
+ 
+ \noindent\fbox{\large\textbf{7.3 (day 2) Homework}: page 509 \, 14-16, 34, Adv. 39-42  \small }
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

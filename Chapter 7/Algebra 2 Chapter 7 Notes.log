@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.18)  11 MAR 2021 00:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.18)  17 MAR 2021 01:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -954,87 +954,133 @@ Underfull \hbox (badness 10000) in paragraph at lines 1289--1290
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 1305--1307
+Underfull \hbox (badness 10000) in paragraph at lines 1315--1317
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1358--1359
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1362--1363
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1421--1422
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1425--1426
 
  []
 
 [12]
-Underfull \hbox (badness 10000) in paragraph at lines 1364--1369
+Underfull \hbox (badness 10000) in paragraph at lines 1520--1521
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1524--1525
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1583--1584
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1587--1588
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1616--1618
 
  []
 
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 1409--1411
+Underfull \hbox (badness 10000) in paragraph at lines 1640--1645
 
  []
 
 [14]
-Underfull \hbox (badness 10000) in paragraph at lines 1454--1459
+Underfull \hbox (badness 10000) in paragraph at lines 1685--1687
 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 1508--1510
+Underfull \hbox (badness 10000) in paragraph at lines 1730--1735
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1539--1544
+Underfull \hbox (badness 10000) in paragraph at lines 1784--1786
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 1581--1583
+Underfull \hbox (badness 10000) in paragraph at lines 1815--1820
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 1639--1640
+Underfull \hbox (badness 10000) in paragraph at lines 1857--1859
+
+ []
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 1915--1916
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1650--1651
+Underfull \hbox (badness 10000) in paragraph at lines 1926--1927
 
  []
 
-[19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 1733--1734
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 2009--2010
 
  []
 
-[21] (./Algebra 2 Chapter 7 Notes.aux) ) 
+[22] (./Algebra 2 Chapter 7 Notes.aux) ) 
 Here is how much of TeX's memory you used:
- 27631 strings out of 480876
- 696679 string characters out of 5911487
- 1049566 words of memory out of 5000000
- 42800 multiletter control sequences out of 15000+600000
+ 27655 strings out of 480876
+ 697135 string characters out of 5911487
+ 1054567 words of memory out of 5000000
+ 42824 multiletter control sequences out of 15000+600000
  548112 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,13n,127p,811b,2167s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 74i,16n,127p,811b,2167s stack positions out of 5000i,500n,10000p,200000b,80000s
 <c:/texlive/2020/texmf-dist/fonts/type1
 /public/amsfonts/cm/cmbx10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/a
 msfonts/cm/cmbx12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmbx7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pf
-b><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texl
-ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmmi9.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.
-pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/tex
-live/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2020/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2020/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmsy7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy9.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pf
-b><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Algebra 2 Chapter 7 Notes.pdf" (21 pages, 259928 bytes).
+m/cmbx5.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pf
+b><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx9.pfb><c:/texlive/2020/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/ty
+pe1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmmi9.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
+pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2020/
+texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
+><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texl
+ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "Algebra 2 Chapter 7 Notes.pdf" (22 pages, 277672 bytes).
 PDF statistics:
- 160 PDF objects out of 1000 (max. 8388607)
- 114 compressed objects within 2 object streams
+ 167 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
