@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.18)  17 MAR 2021 01:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020/W32TeX) (preloaded format=pdflatex 2020.9.18)  29 MAR 2021 23:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1008,51 +1008,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 1640--1645
 
  []
 
-[14]
-Underfull \hbox (badness 10000) in paragraph at lines 1685--1687
-
- []
-
-[15]
-Underfull \hbox (badness 10000) in paragraph at lines 1730--1735
+[14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 1806--1808
 
  []
 
 [16]
-Underfull \hbox (badness 10000) in paragraph at lines 1784--1786
+Underfull \hbox (badness 10000) in paragraph at lines 1852--1857
 
  []
 
 [17]
-Underfull \hbox (badness 10000) in paragraph at lines 1815--1820
+Underfull \hbox (badness 10000) in paragraph at lines 1906--1908
 
  []
 
 [18]
-Underfull \hbox (badness 10000) in paragraph at lines 1857--1859
+Underfull \hbox (badness 10000) in paragraph at lines 1937--1942
 
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 1915--1916
+Underfull \hbox (badness 10000) in paragraph at lines 1979--1981
+
+ []
+
+[20]
+Underfull \hbox (badness 10000) in paragraph at lines 2037--2038
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1926--1927
+Underfull \hbox (badness 10000) in paragraph at lines 2048--2049
 
  []
 
-[20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 2009--2010
+[21] [22]
+Underfull \hbox (badness 10000) in paragraph at lines 2131--2132
 
  []
 
-[22] (./Algebra 2 Chapter 7 Notes.aux) ) 
+[23] (./Algebra 2 Chapter 7 Notes.aux) ) 
 Here is how much of TeX's memory you used:
  27655 strings out of 480876
  697135 string characters out of 5911487
- 1054567 words of memory out of 5000000
+ 1054568 words of memory out of 5000000
  42824 multiletter control sequences out of 15000+600000
  548112 words of font info for 79 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1067,20 +1067,22 @@ exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2020/texmf-dist
 /fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2020/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2020/texmf-dist/fonts/type1/publi
 c/amsfonts/cm/cmmi7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmmi9.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.
-pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/te
-xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2020/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/
-fonts/type1/public/amsfonts/cm/cmr9.pfb><c:/texlive/2020/texmf-dist/fonts/type1
-/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/a
-msfonts/cm/cmsy7.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm
-/cmsy8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb
-><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texl
-ive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Algebra 2 Chapter 7 Notes.pdf" (22 pages, 277672 bytes).
+/cm/cmmi8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.
+pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/te
+xlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2020
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2020/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2020/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmr9.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/c
+msy10.pfb><c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
+<c:/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texliv
+e/2020/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb><c:/texlive/2020/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on "Algebra 2 Chapter 7 Notes.pdf" (23 pages, 300314 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 119 compressed objects within 2 object streams
+ 178 PDF objects out of 1000 (max. 8388607)
+ 127 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 

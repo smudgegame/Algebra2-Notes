@@ -444,7 +444,7 @@ Tell whether the function shows growth or decay. Then graph.
 			\end{tikzpicture}
 	\end{minipage}
 	\begin{minipage}[t]{0.45\linewidth}
-		\item[(b)] $\displaystyle g(x)=2\bigg{(}\frac{1}{2}\bigg{)}^2$
+		\item[(b)] $\displaystyle g(x)=2\bigg{(}\frac{1}{2}\bigg{)}^x$
 		
 			\begin{tikzpicture}[>=latex,scale=1]
 				\begin{axis}[
@@ -1643,39 +1643,160 @@ where $M$ is the \textbf{magnitude} of the earthquake, I is the \textbf{intensit
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  
+ \noindent Remember that multiplying powers with the same base, you add the exponents.
+
+\large\[\color{blue}b^{\color{red}m}\color{blue}b^{\color{red}n} = \color{blue}b^{\color{red}m+n}\color{black}\]
+
+\vspace{-0.5cm}
+
+\begin{center}
+	\begin{tabular}[t]{|c|c|c|}
+		\hline
+		\multicolumn{3}{|c|}{}\\
+		\multicolumn{3}{|c|}{\textbf{Product Property of Logarithms}}\\
+		\hline
+		&&\\
+		\textbf{Words} & \textbf{Numbers} & \textbf{Algebra} \\
+		\hline
+		&&\\
+		\multicolumn{1}{|l|}{The logarithm of a product} & & \\
+		\multicolumn{1}{|l|}{is equal to the sum of the } & $\log_3 1000 = \log_3 (10 \cdot 100)   $ &  $\log_b mn = \log_b m+ \log_b n$ \\
+		\multicolumn{1}{|l|}{logarithms of its factors.} & $\qquad\qquad\qquad = \log_3 10 + \log_3 100$ & \\
+		\hline 
+	\end{tabular}
+	\normalsize
+\end{center}
+
 \begin{example}
+Express as a single logarithm. Simplify if possible.
 \end{example}
 \begin{minipage}[t]{0.45\linewidth}
- (a) 
+ (a)  $\log_4 2 + \log_4 32$
 \end{minipage}
 \begin{minipage}[t]{0.45\linewidth}
- (b) 
+ (b) $\log_5 625 + \log_5 25$
 \end{minipage}
 \vfill
 
-\begin{example}
-
-\end{example}
-\begin{minipage}[t]{0.45\linewidth}
- (a) 
-\end{minipage}
-\begin{minipage}[t]{0.45\linewidth}
- (b) 
-\end{minipage}
-\vfill
 \begin{youtry}
-
+Express as a single logarithm. Simplify if possible.
 \end{youtry}
 \begin{minipage}[t]{0.45\linewidth}
- (a) 
+ (a) $\log_3 27 + \log_3 \displaystyle\frac{1}{9}$
 \end{minipage}
 \begin{minipage}[t]{0.45\linewidth}
- (b) 
+ (b) $\log_2 16 + \log_2 4$
 \end{minipage}
 \vfill
 
+\begin{center}
+	\large
+	\begin{tabular}[t]{|c|c|c|}
+		\hline
+		\multicolumn{3}{|c|}{}\\
+		\multicolumn{3}{|c|}{\textbf{Quotient Property of Logarithms}}\\
+		\hline
+		&&\\
+		\textbf{Words} & \textbf{Numbers} & \textbf{Algebra} \\
+		\hline
+		&&\\
+		\multicolumn{1}{|l|}{The logarithm of a quotient is the} & & \\
+		\multicolumn{1}{|l|}{ logarithm of the dividend minus } & $\log_5 \displaystyle\bigg{(}\frac{16}{2}\bigg{)} = \log_5 16 - \log_5 2   $ &  $\log_b \frac{m}{n} = \log_b m - \log_b n$ \\
+		\multicolumn{1}{|l|}{the logarithm of the divisor.} &  & \\
+		\hline 
+	\end{tabular}
+	\normalsize
+\end{center}
+
+
+\begin{example}
+Express as a single logarithm and simplify if possible.
+\end{example}
+\begin{minipage}[t]{0.45\linewidth}
+ (a)  $\log_2 32 - \log _2 4$
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+ (b) $\log_7 49 - \log_7 7$
+\end{minipage}
 \vfill
- \noindent\fbox{\large\textbf{7.4 (day 1) Homework}: page   \small }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{center}
+	\large
+	\begin{tabular}[t]{|c|c|c|}
+		\hline
+		\multicolumn{3}{|c|}{}\\
+		\multicolumn{3}{|c|}{\textbf{Power Property of Logarithms}}\\
+		\hline
+		&&\\
+		\textbf{Words} & \textbf{Numbers} & \textbf{Algebra} \\
+		\hline
+		&&\\
+		\multicolumn{1}{|l|}{The logarithm of a power} & $\log 10^3 $ & \\
+		\multicolumn{1}{|l|}{ is the product of the  } & $\log (10\cdot 10 \cdot 10)$ &  $\log_b a^n = n\cdot \log_b a $ \\
+		\multicolumn{1}{|l|}{exponent and the logarithm} & $\log 10 + \log 10 + \log 10$  &  \\
+		\multicolumn{1}{|l|}{ of the base.}&$3\log 10$&\\
+		\hline 
+	\end{tabular}
+	\normalsize
+\end{center}
+
+\begin{example}
+Express as a single logarithm. Simplify if possible.
+\end{example}
+\begin{minipage}[t]{0.45\linewidth}
+ (a)  $\log_3 81^2$
+\end{minipage}
+\begin{minipage}[t]{0.45\linewidth}
+ (b) $\log_5 \bigg{(}\displaystyle\frac{1}{5} \bigg{)}^3$
+\end{minipage}
+\vfill
+
+\begin{youtry}
+Express as a single logarithm. Simplify if possible.
+\end{youtry}
+\begin{minipage}[t]{0.3\linewidth}
+ (a) $\log10^4$
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\linewidth}
+ (b) $\log_5 25^2$
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.3\linewidth}
+ (b) $\log_2 \bigg{(}\displaystyle\frac{1}{2} \bigg{)}^5$
+\end{minipage}
+\vfill
+
+\begin{center}
+	\large
+	\begin{tabular}[t]{|l|l|}
+		\hline
+		\multicolumn{2}{|c|}{}\\
+		\multicolumn{2}{|c|}{\textbf{ Properties of Logarithm  Summary}}\\
+		\hline
+		&\\
+		\textbf{Product Property} & $\log_b n\cdot m = \log_b n + \log_b m$ \\
+		\hline
+		&\\
+		\textbf{Quotient Property} & $\log_b \big{(}\frac{m}{n}\big{)} = \log_b m - \log_b n$\\
+		\hline 
+		&\\
+		\textbf{Power Property} & $\log_b a^n = n\cdot \log_b a$\\
+		\hline
+	\end{tabular}
+	\normalsize
+\end{center}
+
+\vfill
+
+ \noindent\fbox{\large\textbf{7.4 (day 1) Homework}: page 516 1-10,21-27 odds, Adv. 37-41 odd  \small }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \newpage
@@ -1683,7 +1804,8 @@ where $M$ is the \textbf{magnitude} of the earthquake, I is the \textbf{intensit
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \noindent\Large{\textbf{7.4 (day 2) Properties of Logarithms}} 
-\indent\hfill\small\noindent \textbf{Objective}: Translate between logarithms in any base.  \normalsize\\
+\indent\hfill\small\noindent \textbf{Objective}: Use properties to simplify logarithms.  \normalsize\\
+
 
 \begin{example}
 
