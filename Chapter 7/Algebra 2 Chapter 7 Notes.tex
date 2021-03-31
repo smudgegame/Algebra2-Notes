@@ -1828,11 +1828,11 @@ Express as a single logarithm. Simplify, if possible.
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\linewidth}
- (e) $\log_27 243$
+ (e) $\log_{27} 243$
 \end{minipage}
 \hfill
 \begin{minipage}[t]{0.3\linewidth}
- (f) $\log_10 0.01$
+ (f) $\log_{10} 0.01$
 \end{minipage}
 \vfill
 
@@ -1917,15 +1917,15 @@ Simplify each expression
 Evaluate. (Use a calculator)
 \end{example}
 
-\begin{minipage}[t]{0.45\linewidth}
+\begin{minipage}[t]{0.3\linewidth}
 	 (a) $\log_4 8$
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.45\linewidth}
+\begin{minipage}[t]{0.3\linewidth}
  	(b) $\log_9 27$
 \end{minipage}
 \hfill
-\begin{minipage}[t]{0.45\linewidth}
+\begin{minipage}[t]{0.3\linewidth}
 	 (c) $\log_8 16$
 \end{minipage}
 \vfill
@@ -1959,49 +1959,260 @@ in 1964, an earthquake centered at Prince William Sound, Alaska, registered a ma
  \setcounter{definition}{0}
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
- \begin{example}
- \end{example}
  
- \begin{minipage}[t]{0.45\linewidth}
- (a) 
+\noindent  Recall the compounded interest formula:
+ \[A=P\bigg{(}1+\frac{r}{n}\bigg{)}^{nt}\]
+ \noindent Where $A$ is the total or final amount, $P$ is the principal, $r$ is the annual interest rate, $n$ is the number of times the interest is compounded per year, and $t$ is the time in years.\\
+ 
+\noindent \large\textbf{Exploration to discover the Euler Number, $e$} \normalsize\\
+
+\begin{minipage}[t]{0.2\linewidth}
+\large
+\vspace{-7cm}
+
+ $r=100\%$\\
+ 
+ $P=\$1$\\
+ 
+ $n \rightarrow \infty$\\
+ \normalsize
  \end{minipage}
  \hfill
  \begin{minipage}[t]{0.45\linewidth}
- (b) 
+ 	\begin{tikzpicture}[scale=1]
+		\begin{axis}[
+				    width =8cm,
+			               height=8cm,
+				    xmin=-0.25,xmax=15,
+				    ymin=0.5,ymax=2.5,
+				    grid=both,
+				    grid style={line width=.2pt, draw=gray!50},
+				    major grid style={line width=.3pt,draw=gray!75},
+				    axis lines=middle,
+				    minor tick num=1,
+				    enlargelimits={abs=0.75},
+				    axis line style={latex-latex},
+				    ticklabel style={font=\small,fill=white},
+				    xlabel={\,\,$x$},
+				    ylabel={$y$},
+				    xlabel style={below right},
+				    ylabel style={above right},
+				]
+		\end{axis}	
+	\end{tikzpicture}
  \end{minipage}
-\vfill
-
- \begin{youtry}
-
- \end{youtry}
  
- \begin{minipage}[t]{0.45\linewidth}
- (a) 
- \end{minipage}
- \hfill
- \begin{minipage}[t]{0.45\linewidth}
- (b) 
+ \vfill
+ 
+ \hrule
+ 
+ \vfill
+ 
+ \large\textbf{The Graph of the Exponential Function, $e^x$}\normalsize
+ 
+\begin{minipage}[t]{0.25\linewidth}
+\large
+\vspace{-6.5cm}
+	\begin{tabular}[t]{|c|c|}
+		\hline
+		&\\
+		$\quad \mathbf{x} \quad$ & $\mathbf{f(x)=e^x}$\\
+		\hline
+		&\\
+		-2 & $e^{-2}=0.1353$ \\
+		\hline
+		&\\
+		-1 & $e^{-1}=0.3679$ \\
+		\hline
+		&\\
+		$e^0=0$ & $e^0=1$ \\
+		\hline
+		&\\
+		1 & $e^1=2.7182$ \\
+		\hline
+		&\\
+		2 & $e^2=7.3891$ \\
+		\hline
+	\end{tabular}
+\end{minipage}
+\begin{minipage}[t]{0.25\linewidth}
+\vspace{-6cm}
+
+  Domain of $f(x)$: $(-\infty, \infty)$\\
+  
+  Range of $f(x)$: $(0, \infty)$ \\
+\normalsize
+\end{minipage}
+\hfill
+\begin{minipage}[t]{0.45\linewidth}
+	 \begin{tikzpicture}[>=latex,scale=1]
+			\begin{axis}[
+					    width =8cm,
+				               height=8cm,
+					    xmin=-6,xmax=4,
+					    ymin=-2,ymax=8,
+					    grid=both,
+					    grid style={line width=.2pt, draw=gray!50},
+					    major grid style={line width=.3pt,draw=gray!75},
+					    axis lines=middle,
+					    minor tick num=1,
+					    enlargelimits={abs=0.5},
+					    axis line style={latex-latex},
+					    ticklabel style={font=\small,fill=white},
+					    xlabel={\,\,$x$},
+					    ylabel={$y$},
+					    xlabel style={below right},
+					    ylabel style={above right},
+					]
+					\addplot[domain=-6:6, blue, ultra thick, smooth] {e^x};
+			\end{axis}	
+	\end{tikzpicture}
  \end{minipage}
 \vfill
 
 \begin{definition}
+The formula for continuously compunded interest is $A=Pe^{rt}$, where $A$ is the total amount, $P$ is the principal, $r$ is the annual interest rate, and $t$ is the time in years.
 \end{definition}
 
-\begin{example}
 
-\end{example}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ \newpage
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ 
+ 
+ \begin{example}
+ What is the total amount for an inestment of $\$1000$ invested at $5\%$ for 10 years compounded continuously.
+ \end{example}
+ 
+ \vfill
+ 
+  \begin{example}
+ What is the total amount for an inestment of $\$100$ invested at $3.5\%$ for 8 years compounded continuously.
+ \end{example}
+ 
+ \vfill
+ 
+ \begin{example}
+ Graph the following.
+ \end{example}
+ 
+\begin{itemize}
+	\begin{minipage}[t]{0.45\linewidth}
+		\item[(a)] $f(x)=e^x+2$
+		
+			\begin{tikzpicture}[>=latex,scale=1]
+				\begin{axis}[
+						    width =7cm,
+					               height=7cm,
+						    xmin=-6,xmax=6,
+						    ymin=0,ymax=12,
+						    grid=both,
+						    grid style={line width=.2pt, draw=gray!50},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\small,fill=white},
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+				\end{axis}	
+			\end{tikzpicture}
+	\end{minipage}
+	\begin{minipage}[t]{0.45\linewidth}
+		\item[(b)] $\displaystyle g(x)=e^x-3$
+		
+			\begin{tikzpicture}[>=latex,scale=1]
+				\begin{axis}[
+						    width =7cm,
+					               height=7cm,
+						    xmin=-6,xmax=6,
+						    ymin=-4,ymax=8,
+						    grid=both,
+						    grid style={line width=.2pt, draw=gray!50},
+						    major grid style={line width=.3pt,draw=gray!75},
+						    axis lines=middle,
+						    minor tick num=1,
+						    enlargelimits={abs=0.5},
+						    axis line style={latex-latex},
+						    ticklabel style={font=\small,fill=white},
+						    xlabel={\,\,$x$},
+						    ylabel={$y$},
+						    xlabel style={below right},
+						    ylabel style={above right},
+						]
+				\end{axis}	
+			\end{tikzpicture}
+	\end{minipage}
+\end{itemize}
 
-\begin{minipage}[t]{0.45\linewidth}
-(a) 
+\begin{definition}
+A logarithm with a base of $e$ is called a \textbf{natural logarithm} and is abbreviated as $\ln$ rather than $\log_e$. The natural logarithm, $f(x)=\ln x$ is the inverse of the exponential function, $g(x)=e^x$.
+\end{definition}
+ 
+\begin{minipage}[t]{0.25\linewidth}
+\large
+\vspace{-6cm}
+	\begin{tabular}[t]{|c|c|}
+		\hline
+		&\\
+		$\quad \mathbf{x} \quad$ & $\mathbf{f(x)=\ln x}$\\
+		\hline
+		&\\
+		-2 & undefined \\
+		\hline
+		&\\
+		-1 & undefined \\
+		\hline
+		&\\
+		0 & undefined \\
+		\hline
+		&\\
+		1 & 0 \\
+		\hline
+		&\\
+		$e^1=2.7182$ & $1$ \\
+		\hline
+		&\\
+		$e^2=7.3891$ & $2$\\
+		\hline
+	\end{tabular}
 \end{minipage}
-\hfill
+ \hfill
 \begin{minipage}[t]{0.45\linewidth}
-(b) 
-\end{minipage}
-
+	 \begin{tikzpicture}[>=latex,scale=1]
+			\begin{axis}[
+					    width =8cm,
+				               height=8cm,
+					    xmin=-2,xmax=8,
+					    ymin=-2,ymax=8,
+					    grid=both,
+					    grid style={line width=.2pt, draw=gray!50},
+					    major grid style={line width=.3pt,draw=gray!75},
+					    axis lines=middle,
+					    minor tick num=1,
+					    enlargelimits={abs=0.5},
+					    axis line style={latex-latex},
+					    ticklabel style={font=\small,fill=white},
+					    xlabel={\,\,$x$},
+					    ylabel={$y$},
+					    xlabel style={below right},
+					    ylabel style={above right},
+					]
+					\addplot[domain=-2.5:2.5, blue, ultra thick, smooth] {e^x};
+					\addplot[domain=-2.5:8.5, green, ultra thick,dashed, smooth] {x};
+			\end{axis}	
+	\end{tikzpicture}
+ \end{minipage}
+\vfill
 
 \vfill
-\noindent\fbox{\large\textbf{7.6 Homework (day 1)}: page  \small }
+\noindent\fbox{\large\textbf{7.6 Homework (day 1)}: page 534 3-11 odds, Adv. 21, 23 \small }
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
  \newpage
