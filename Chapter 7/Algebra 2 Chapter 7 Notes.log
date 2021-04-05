@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  31 MAR 2021 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  5 APR 2021 15:45
 entering extended mode
 **"./Algebra 2 Chapter 7 Notes.tex"
 ("Algebra 2 Chapter 7 Notes.tex"
@@ -1143,41 +1143,36 @@ Overfull \hbox (13.7071pt too wide) in paragraph at lines 2161--2185
  []
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 2222--2224
-
- []
-
-[20]
 Underfull \hbox (badness 10000) in paragraph at lines 2253--2258
 
  []
 
-[21]
-Underfull \hbox (badness 10000) in paragraph at lines 2295--2297
+[20] [21]
+Underfull \hbox (badness 10000) in paragraph at lines 2551--2553
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 2353--2354
+Underfull \hbox (badness 10000) in paragraph at lines 2609--2610
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2364--2365
+Underfull \hbox (badness 10000) in paragraph at lines 2620--2621
 
  []
 
 [23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 2447--2448
+Underfull \hbox (badness 10000) in paragraph at lines 2703--2704
 
  []
 
 [25] ("Algebra 2 Chapter 7 Notes.aux") ) 
 Here is how much of TeX's memory you used:
- 28361 strings out of 480236
- 731389 string characters out of 2878657
- 1124488 words of memory out of 3000000
- 44461 multiletter control sequences out of 15000+200000
+ 28409 strings out of 480236
+ 732301 string characters out of 2878657
+ 1135488 words of memory out of 3000000
+ 44509 multiletter control sequences out of 15000+200000
  548112 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,16n,127p,747b,2171s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1212,7 +1207,7 @@ margraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 cm/cmsy9.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Algebra 2 Chapter 7 Notes.pdf" (25 pages, 359205 bytes).
+Output written on "Algebra 2 Chapter 7 Notes.pdf" (25 pages, 367226 bytes).
 PDF statistics:
  190 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
