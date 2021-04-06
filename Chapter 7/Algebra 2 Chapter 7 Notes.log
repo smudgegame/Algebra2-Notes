@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  5 APR 2021 15:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.20)  6 APR 2021 15:46
 entering extended mode
 **"./Algebra 2 Chapter 7 Notes.tex"
 ("Algebra 2 Chapter 7 Notes.tex"
@@ -1148,31 +1148,51 @@ Underfull \hbox (badness 10000) in paragraph at lines 2253--2258
  []
 
 [20] [21]
-Underfull \hbox (badness 10000) in paragraph at lines 2551--2553
+Underfull \hbox (badness 10000) in paragraph at lines 2560--2561
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2574--2575
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2585--2586
 
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 2609--2610
+Underfull \hbox (badness 10000) in paragraph at lines 2642--2643
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2620--2621
+Underfull \hbox (badness 10000) in paragraph at lines 2647--2648
 
  []
 
-[23] [24]
-Underfull \hbox (badness 10000) in paragraph at lines 2703--2704
+
+Underfull \hbox (badness 10000) in paragraph at lines 2652--2655
 
  []
 
-[25] ("Algebra 2 Chapter 7 Notes.aux") ) 
+
+Underfull \hbox (badness 10000) in paragraph at lines 2688--2691
+
+ []
+
+[23]
+Underfull \hbox (badness 10000) in paragraph at lines 2731--2732
+
+ []
+
+[24] ("Algebra 2 Chapter 7 Notes.aux") ) 
 Here is how much of TeX's memory you used:
- 28409 strings out of 480236
- 732301 string characters out of 2878657
+ 28422 strings out of 480236
+ 732545 string characters out of 2878657
  1135488 words of memory out of 3000000
- 44509 multiletter control sequences out of 15000+200000
+ 44522 multiletter control sequences out of 15000+200000
  548112 words of font info for 79 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  96i,16n,127p,747b,2171s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1207,9 +1227,9 @@ margraff/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 cm/cmsy9.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmti10.pfb><C:/Users/amargraff/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on "Algebra 2 Chapter 7 Notes.pdf" (25 pages, 367226 bytes).
+Output written on "Algebra 2 Chapter 7 Notes.pdf" (24 pages, 372475 bytes).
 PDF statistics:
- 190 PDF objects out of 1000 (max. 8388607)
+ 186 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
